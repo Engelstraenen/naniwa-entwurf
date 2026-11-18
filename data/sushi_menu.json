@@ -1,0 +1,704 @@
+[
+ {
+  "kategorie": "Vorspeisen",
+  "gerichte": [
+   {
+    "nr": "024",
+    "jp": "生春巻き",
+    "name": "NAMAHARU-MAKI",
+    "preis": "11,50€",
+    "text": "frische Sommerrollen mit Garnele, Möhre, Gurke, Avocado, Salat, Mayo und Chillisoße",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1624-1024x683.jpg"
+   },
+   {
+    "nr": "010",
+    "jp": "鮭の照焼",
+    "name": "SHAKE-TERIYAKI",
+    "preis": "7,80€",
+    "text": "gebratener Lachs mit Teriyakisoße",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1612-1024x683.jpg"
+   },
+   {
+    "nr": "020",
+    "jp": "揚出し豆腐",
+    "name": "AGEDASHI-TOFU",
+    "preis": "6,30€",
+    "text": "klare Suppe mit frittiertem Tofu",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1619-1024x683.jpg"
+   },
+   {
+    "nr": "A1",
+    "jp": "刺身盛合せ",
+    "name": "SASHIMORI",
+    "preis": "GR 30,00€/ KL 25,00€",
+    "text": "Sashimi von Thunfisch, Lachs, Garnele, Tintenfisch, Weißfisch, Gelbschwanz und Kammmuschel",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1660-1024x683.jpg"
+   },
+   {
+    "nr": "025",
+    "jp": "鮪タルタル",
+    "name": "MAGURO-TARUTARU",
+    "preis": "15,00€",
+    "text": "Thunfisch-Tartar",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1806-1024x683.jpg"
+   },
+   {
+    "nr": "P1",
+    "jp": "天麩羅",
+    "name": "TEMPURA",
+    "preis": "17,00€",
+    "text": "frittierte Garnelen und Gemüse japanischer Art",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1767-1024x683.jpg"
+   },
+   {
+    "nr": "01",
+    "jp": "ツナサラダ",
+    "name": "TSUNA-SALAT",
+    "preis": "7,50€",
+    "text": "mit gekochtem Thunfisch",
+    "bild": null
+   },
+   {
+    "nr": "03",
+    "jp": "ほうれん草の胡麻和え",
+    "name": "GOMAAE",
+    "preis": "5,80€",
+    "text": "Spinat mit Sesamsoße",
+    "bild": null
+   },
+   {
+    "nr": "05",
+    "jp": "鶏の唐揚げ",
+    "name": "TORIKARA",
+    "preis": "7,80€",
+    "text": "frittiertes Hühnerfleisch japanischer Art",
+    "bild": null
+   },
+   {
+    "nr": "06",
+    "jp": "枝豆",
+    "name": "EDAMAME",
+    "preis": "5,80€",
+    "text": "gekochte grüne Soja-Bohnen",
+    "bild": null
+   },
+   {
+    "nr": "07",
+    "jp": "たこぶつ",
+    "name": "TAKOBUTSU",
+    "preis": "8,80€",
+    "text": "eingelegter, gekochter Oktopus",
+    "bild": null
+   },
+   {
+    "nr": "03",
+    "jp": "わかめサラダ",
+    "name": "WAKAME SALAT",
+    "preis": "7,00€",
+    "text": "eingelegter Seetang",
+    "bild": null
+   },
+   {
+    "nr": "09",
+    "jp": "鶏の照焼",
+    "name": "TORI-TERIYAKI",
+    "preis": "7,20€",
+    "text": "gebratenes Hühnerfleisch mit Teriyakisoße",
+    "bild": null
+   },
+   {
+    "nr": "011",
+    "jp": "味噌汁",
+    "name": "MISO-SHIRU",
+    "preis": "3,80€",
+    "text": "japanische Misosuppe",
+    "bild": null
+   },
+   {
+    "nr": "012",
+    "jp": "ご飯",
+    "name": "GOHAN",
+    "preis": "3,00€",
+    "text": "gekochter japanischer Reis",
+    "bild": null
+   },
+   {
+    "nr": "015",
+    "jp": "スパイシー枝豆",
+    "name": "SPICY EDAMAME",
+    "preis": "5,80€",
+    "text": "gekochte Sojabohnen mit würzigem Pfeffer",
+    "bild": null
+   },
+   {
+    "nr": "016",
+    "jp": "海老フライ",
+    "name": "EBI FRY",
+    "preis": "7,00€",
+    "text": "frittierte Garnelen",
+    "bild": null
+   },
+   {
+    "nr": "017",
+    "jp": "鮭フライ",
+    "name": "SHAKE FRY",
+    "preis": "7,00€",
+    "text": "frittierter Lachs",
+    "bild": null
+   },
+   {
+    "nr": "018",
+    "jp": "玉子焼き",
+    "name": "TAMAGOYAKI",
+    "preis": "6,30€",
+    "text": "japanisches Omelette aus Eiern und Dashi",
+    "bild": null
+   },
+   {
+    "nr": "019",
+    "jp": "鮭の南蛮漬け",
+    "name": "SHAKE-NANBANZUKE",
+    "preis": "8,80€",
+    "text": "marinierter Lachs japanischer Art",
+    "bild": null
+   },
+   {
+    "nr": "023",
+    "jp": "鮭のカルパチョ",
+    "name": "SHAKE-CARPACCIO",
+    "preis": "14,80€",
+    "text": "Carpaccio vom Lachs",
+    "bild": null
+   },
+   {
+    "nr": "P3",
+    "jp": "野菜の天麩羅",
+    "name": "YASAI-TEMPURA",
+    "preis": "15,00€",
+    "text": "frittiertes Gemüse japanischer Art",
+    "bild": null
+   },
+   {
+    "nr": "P2",
+    "jp": "海老の天麩羅",
+    "name": "EBI-TEMPURA",
+    "preis": "18,50€",
+    "text": "fünf frittierte Garnelen japanischer Art",
+    "bild": null
+   },
+   {
+    "nr": "A4",
+    "jp": "鮪と鮭の刺身",
+    "name": "THUNFISCH-LACHS-SASHIMI",
+    "preis": "23,50€",
+    "text": "drei Scheiben Thunfisch und vier Scheiben Lachs-Sashimi",
+    "bild": null
+   },
+   {
+    "nr": "A3",
+    "jp": "鮭の刺身",
+    "name": "LACHS-SASHIMI",
+    "preis": "22,50€",
+    "text": "8 Scheiben feinster Lachs-Sashimi",
+    "bild": null
+   },
+   {
+    "nr": "A2",
+    "jp": "鮪の刺身",
+    "name": "THUNFISCH-SASHIMI",
+    "preis": "25,00€",
+    "text": "6 Scheiben feinster Thunfisch-Sashimi",
+    "bild": null
+   }
+  ]
+ },
+ {
+  "kategorie": "Nigiri",
+  "gerichte": [
+   {
+    "nr": "S1",
+    "jp": "鮪",
+    "name": "MAGURO",
+    "preis": "9,60€",
+    "text": "Thunfisch",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/11/DSCF1692-1024x683.jpg"
+   },
+   {
+    "nr": "S2",
+    "jp": "鮭",
+    "name": "SHAKE",
+    "preis": "8,00€",
+    "text": "Lachs",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/11/DSCF1731-1024x683.jpg"
+   },
+   {
+    "nr": "S3",
+    "jp": "海老",
+    "name": "EBI",
+    "preis": "9,00€",
+    "text": "gekochte Garnele",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/11/DSCF1686-1024x683.jpg"
+   },
+   {
+    "nr": "S7",
+    "jp": "鯖",
+    "name": "SABA",
+    "preis": "8,00€",
+    "text": "MAKRELE",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/11/DSCF1721-1024x683.jpg"
+   },
+   {
+    "nr": "S17",
+    "jp": "葱とろ",
+    "name": "NEGITORO",
+    "preis": "9,60€",
+    "text": "Thunfischtartar mit Lauch",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/11/DSCF1703-1024x683.jpg"
+   },
+   {
+    "nr": "S19",
+    "jp": "イクラ",
+    "name": "IKURA",
+    "preis": "9,60€",
+    "text": "Lachskaviar",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/11/DSCF1704-1024x683.jpg"
+   },
+   {
+    "nr": "S4",
+    "jp": "鰻",
+    "name": "UNAGI",
+    "preis": "9,00€",
+    "text": "gegrillter Meeraal",
+    "bild": null
+   },
+   {
+    "nr": "S5",
+    "jp": "烏賊",
+    "name": "IKA",
+    "preis": "8,00€",
+    "text": "Tintenfisch",
+    "bild": null
+   },
+   {
+    "nr": "S6",
+    "jp": "蛸",
+    "name": "TAKO",
+    "preis": "7,00€",
+    "text": "gekochter Oktopus",
+    "bild": null
+   },
+   {
+    "nr": "S8",
+    "jp": "北寄貝",
+    "name": "HOKKIGAI",
+    "preis": "8,00€",
+    "text": "Trog-Muschel",
+    "bild": null
+   },
+   {
+    "nr": "S9",
+    "jp": "玉子",
+    "name": "TAMAGO",
+    "preis": "6,00€",
+    "text": "Eier-Omelette",
+    "bild": null
+   },
+   {
+    "nr": "S10",
+    "jp": "鱸",
+    "name": "SUZUKI",
+    "preis": "8,00€",
+    "text": "Wolfsbarsch",
+    "bild": null
+   },
+   {
+    "nr": "S12",
+    "jp": "帆立",
+    "name": "HOTATE",
+    "preis": "8,00€",
+    "text": "Jakobsmuschel",
+    "bild": null
+   },
+   {
+    "nr": "S13",
+    "jp": "とろ",
+    "name": "TORO",
+    "preis": "12,00€",
+    "text": "fein marmorierter Thunfisch",
+    "bild": null
+   },
+   {
+    "nr": "S14",
+    "jp": "稲荷寿司",
+    "name": "INARI",
+    "preis": "7,00€",
+    "text": "frittierte Tofutaschen, gefüllt mit Reis, in Essig mariniert",
+    "bild": null
+   },
+   {
+    "nr": "S15",
+    "jp": "魬",
+    "name": "HAMACHI",
+    "preis": "8,40€",
+    "text": "junger Gelbschwanz",
+    "bild": null
+   },
+   {
+    "nr": "S16",
+    "jp": "蟹",
+    "name": "KANI",
+    "preis": "8,40€",
+    "text": "Krabbe",
+    "bild": null
+   },
+   {
+    "nr": "S18",
+    "jp": "鯛",
+    "name": "TAI",
+    "preis": "8,40€",
+    "text": "Dorade",
+    "bild": null
+   }
+  ]
+ },
+ {
+  "kategorie": "Hoso-Maki",
+  "gerichte": [
+   {
+    "nr": "M1",
+    "jp": "鉄火巻",
+    "name": "TEKKA",
+    "preis": "6,20€",
+    "text": "Thunfisch",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1785-1024x683.jpg"
+   },
+   {
+    "nr": "M2",
+    "jp": "鮭巻",
+    "name": "SHAKE",
+    "preis": "6,00€",
+    "text": "achs",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1780-1024x683.jpg"
+   },
+   {
+    "nr": "M10",
+    "jp": "アボカド巻",
+    "name": "AVOCADO",
+    "preis": "5,00€",
+    "text": "Avocado",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1783-1024x683.jpg"
+   },
+   {
+    "nr": "M3",
+    "jp": "鰻巻",
+    "name": "UNAGI",
+    "preis": "6,00€",
+    "text": "gegrillter Meeraal",
+    "bild": null
+   },
+   {
+    "nr": "M4",
+    "jp": "かっぱ巻",
+    "name": "KAPPA",
+    "preis": "5,00€",
+    "text": "Gurke",
+    "bild": null
+   },
+   {
+    "nr": "M5",
+    "jp": "烏賊山葵巻",
+    "name": "IKA-WASABI",
+    "preis": "5,00€",
+    "text": "Tintenfisch mit Meerrettich und Mayo",
+    "bild": null
+   },
+   {
+    "nr": "M6",
+    "jp": "たくあん巻",
+    "name": "TAKUAN",
+    "preis": "5,00€",
+    "text": "eingelegter Rettich",
+    "bild": null
+   },
+   {
+    "nr": "M7",
+    "jp": "玉子巻",
+    "name": "TAMAGO",
+    "preis": "4,80€",
+    "text": "japanisches Omelette",
+    "bild": null
+   },
+   {
+    "nr": "M8",
+    "jp": "かんぴょう巻",
+    "name": "KANPYOU",
+    "preis": "5,00€",
+    "text": "Kürbis",
+    "bild": null
+   },
+   {
+    "nr": "M9",
+    "jp": "カニカマ巻",
+    "name": "KANI-KAMA",
+    "preis": "4,50€",
+    "text": "Surimi",
+    "bild": null
+   },
+   {
+    "nr": "M11",
+    "jp": "椎茸巻",
+    "name": "SHIITAKE",
+    "preis": "4,50€",
+    "text": "Shiitake-Pilz",
+    "bild": null
+   },
+   {
+    "nr": "M12",
+    "jp": "鉄火とアボカド巻",
+    "name": "TEKKA-AVO",
+    "preis": "6,00€",
+    "text": "Thunfisch und Avocado",
+    "bild": null
+   },
+   {
+    "nr": "M12",
+    "jp": "鮭アボカド巻",
+    "name": "SHAKE-AVO",
+    "preis": "6,00€",
+    "text": "Lachs und Avocado",
+    "bild": null
+   },
+   {
+    "nr": "M14",
+    "jp": "葱とろ巻",
+    "name": "NEGI-TORO",
+    "preis": "7,50€",
+    "text": "Thunfischtartar und Lauch",
+    "bild": null
+   },
+   {
+    "nr": "M15",
+    "jp": "鮭マヨ巻",
+    "name": "SHAKE-MAYO",
+    "preis": "5,00€",
+    "text": "gegrillter Lachs mit Mayo",
+    "bild": null
+   },
+   {
+    "nr": "M16",
+    "jp": "海老マヨ巻",
+    "name": "EBI-MAYO",
+    "preis": "6,00€",
+    "text": "Garnelen mit Mayo",
+    "bild": null
+   },
+   {
+    "nr": "M17",
+    "jp": "ツナマヨ巻",
+    "name": "TSUNA-MAYO",
+    "preis": "5,00€",
+    "text": "gekochter Thunfisch mit Mayo",
+    "bild": null
+   },
+   {
+    "nr": "M19",
+    "jp": "葱魬巻",
+    "name": "NEGI-HAMA",
+    "preis": "6,00€",
+    "text": "Gelbschwanztartar mit Lauch",
+    "bild": null
+   },
+   {
+    "nr": "M20",
+    "jp": "鶏の照り焼き巻",
+    "name": "TORI-TERIYAKI",
+    "preis": "5,00€",
+    "text": "gebratenes Hühnerfleisch mit Teriyakisoße",
+    "bild": null
+   }
+  ]
+ },
+ {
+  "kategorie": "Maki",
+  "gerichte": [
+   {
+    "nr": "M25",
+    "jp": "タイガーロール",
+    "name": "TIGER-ROLL",
+    "preis": "17,00€ / Halb 8,50€",
+    "text": "frittierte Garnele japanischer Art, Salat,Mayo und Sesam außen",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1739-1024x683.jpg"
+   },
+   {
+    "nr": "M27",
+    "jp": "ボルカノロール",
+    "name": "VOLCANO-ROLL",
+    "preis": "17,00€ / Halb 8,50€",
+    "text": "Lachs, Lauchzwiebeln, Sesam, Rogen, Mayo und Chilisoße",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1763-1024x683.jpg"
+   },
+   {
+    "nr": "M28",
+    "jp": "なにわロール",
+    "name": "NANIWA-ROLL",
+    "preis": "16,00€ / Halb 8,00€",
+    "text": "Lachs, Avocado und Frischkäse",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1791-1024x683.jpg"
+   },
+   {
+    "nr": "M21",
+    "jp": "海老ロール",
+    "name": "EBI-ROLL",
+    "preis": "18,00€ / Halb 9,00€",
+    "text": "gekochte Garnele, grüner Spargel",
+    "bild": null
+   },
+   {
+    "nr": "M22",
+    "jp": "カリフォルニアロール",
+    "name": "CALIFORNIA-ROLL",
+    "preis": "14,00€ / Halb 7,00€",
+    "text": "Surimi, Avocado, Rogen , Mayo und Sesam",
+    "bild": null
+   },
+   {
+    "nr": "M23",
+    "jp": "照り焼きロール",
+    "name": "TERIYAKI-ROLL",
+    "preis": "14,40€ / Halb7,20€",
+    "text": "gebratenes Hühnerfleisch mit Teriyakisoße, Rucola und Sesam außen",
+    "bild": null
+   },
+   {
+    "nr": "M24",
+    "jp": "スパイシーロール",
+    "name": "SPICY-ROLL",
+    "preis": "18,00€ / Halb 9,00€",
+    "text": "Thunfisch, Avocado, Salat, Schnittlauch, Chilisoße und Sesam außen",
+    "bild": null
+   },
+   {
+    "nr": "M26",
+    "jp": "ノルドロール",
+    "name": "NORD-ROLL",
+    "preis": "16,00€ / Halb 8,00€",
+    "text": "Lachs, Gurken, Salat, Mayo und rogen außen",
+    "bild": null
+   },
+   {
+    "nr": "M29",
+    "jp": "ベジタブルロール",
+    "name": "VEGETABLE-ROLL",
+    "preis": "12,00€ / Halb 6,00€",
+    "text": "Avocado, Gurke und Sesam",
+    "bild": null
+   },
+   {
+    "nr": "M30",
+    "jp": "太巻",
+    "name": "FUTOMAKI",
+    "preis": "17,00€ / Halb 8,50€",
+    "text": "Omelette, Surimi, Shiitakepilz, Kürbis, Rogen, Sesam, gegrillter Meeraal und eingelegter Rettich",
+    "bild": null
+   }
+  ]
+ },
+ {
+  "kategorie": "UdonSoba",
+  "gerichte": [
+   {
+    "nr": "U6",
+    "jp": "ミニ蕎麦",
+    "name": "MINI-SOBA",
+    "preis": "7,00€",
+    "text": "kleine Portion Sobasuppe mit Spinat und Lauch",
+    "bild": null
+   },
+   {
+    "nr": "U4",
+    "jp": "天ぷら蕎麦",
+    "name": "TEMPURA-SOBA",
+    "preis": "14,20€",
+    "text": "Sobasuppe (Buchweizennudeln) mit Garnelen und Gemüse Tempura",
+    "bild": null
+   },
+   {
+    "nr": "U3",
+    "jp": "きつね蕎麦",
+    "name": "KITSUNE-SOBA",
+    "preis": "11,20€",
+    "text": "Sobasuppe (Buchweizennudeln) mit Tofutaschen",
+    "bild": null
+   },
+   {
+    "nr": "U5",
+    "jp": "ミニうどん",
+    "name": "MINI-UDON",
+    "preis": "7,00€",
+    "text": "kleine Portion Udonsuppe mit Spinat und Lauch",
+    "bild": null
+   },
+   {
+    "nr": "U2",
+    "jp": "天ぷらうどん",
+    "name": "TEMPURA-UDON",
+    "preis": "14,20€",
+    "text": "Udonsuppe (Weizensuppe) mit Garnelen und Gemüse Tempura",
+    "bild": null
+   },
+   {
+    "nr": "U1",
+    "jp": "きつねうどん",
+    "name": "KITSUNE-UDON",
+    "preis": "11.20€",
+    "text": "Udonsuppe (Weizennudeln) mit Tofutaschen",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1836-1024x683.jpg"
+   }
+  ]
+ },
+ {
+  "kategorie": "Don",
+  "gerichte": [
+   {
+    "nr": "D1",
+    "jp": "天重",
+    "name": "TEN-JYU",
+    "preis": "17,80€",
+    "text": "frittierte Garnelen und Gemüse Tempura auf Reis mit eine Misosuppe",
+    "bild": "https://sushi.naniwa.de/wp-content/uploads/sites/3/2021/12/DSCF1817-1024x683.jpg"
+   },
+   {
+    "nr": "D4",
+    "jp": "照焼丼",
+    "name": "TERIYAKI-DON",
+    "preis": "13,00€",
+    "text": "gebratenes Hühnerfleisch mit Teriyakisoße auf Reis mit einer Misosuppe",
+    "bild": null
+   },
+   {
+    "nr": "D5",
+    "jp": "鰻丼",
+    "name": "UNA-DON",
+    "preis": "26,50€",
+    "text": "gegrillter Aal auf Reis mit einer Misosuppe",
+    "bild": null
+   },
+   {
+    "nr": "D3",
+    "jp": "海鮮重",
+    "name": "KAISEN-JYU",
+    "preis": "27,80€",
+    "text": "gemischtes Sashimi auf Reis mit einer Misosuppe",
+    "bild": null
+   },
+   {
+    "nr": "D2",
+    "jp": "鮪丼",
+    "name": "MAGURO-DON",
+    "preis": "27,80€",
+    "text": "Thunfisch-Sashimi auf Reis mit einer Misosuppe",
+    "bild": "https://sushi.naniwa.de/wp-content/themes/naniwafront/dist/static/icons/FB.svg"
+   }
+  ]
+ }
+]

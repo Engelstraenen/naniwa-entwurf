@@ -1,0 +1,7 @@
+.env*
+node_modules/
+originale/
+shots/
+storyboards/sb*.jpg
+ref/
+.DS_Store

@@ -1,0 +1,999 @@
+PAGES 62
+Starters
+V1
+MISO SOUP 7
+味噌汁
+Ramen
+Rice Dishes
+soup made from soy bean
+paste with seaweed
+Yakisoba
+Child Menus
+3,80€
+Desserts
+Beverages
+Starters
+V2
+WANTAN SOUP
+ワンタンスープ
+Ramen
+Rice Dishes
+Soup with dumplings
+(see E6)
+Yakisoba
+Child Menus
+5,50€
+Desserts
+Beverages
+Starters
+V3
+KIMCHI
+キムチ
+Ramen
+Rice Dishes
+Pickled chinese cabbage
+with chili and garlic
+Yakisoba
+Child Menus
+4,70€
+Desserts
+Beverages
+Starters
+V4
+NANIWA SALAD
+なにわサラダ
+Ramen
+Rice Dishes
+Iceberg lettuce with tuna, toma-
+toes, corn, seaweed, egg and
+nomemade dressing
+Yakisoba
+Child Menus
+7,50€
+Desserts
+Beverages
+Starters
+V5
+SALAD
+ミニサラダ
+Ramen
+Rice Dishes
+Small mixed salad
+with tuna
+Yakisoba
+Child Menus
+5,20€
+Desserts
+Beverages
+Starters
+V6
+WAKAME SALAD
+わかめサラダ
+Ramen
+Rice Dishes
+Seaweed salad
+Yakisoba
+Child Menus
+7,00€
+Desserts
+Beverages
+Starters
+V7
+EDAMAME
+えだまめ
+Ramen
+Rice Dishes
+Soybeans
+Yakisoba
+Child Menus
+5,80€
+Desserts
+Beverages
+Starters
+V8
+GOMAAE
+ほうれん草の胡麻和え
+Ramen
+Rice Dishes
+Spinach with sesame dressing
+Yakisoba
+Child Menus
+5,80€
+Desserts
+Beverages
+Starters
+V9
+TORI TERIYAKI
+鶏の照焼
+Ramen
+Rice Dishes
+Fried chicken with
+teriyaki sauce
+Yakisoba
+Child Menus
+7,20€
+Desserts
+Beverages
+Starters
+V10
+EBI FRY
+海老フライ
+Ramen
+Rice Dishes
+Fried shrimps
+Yakisoba
+Child Menus
+7,00€
+Desserts
+Beverages
+Starters
+V11
+SHAKE FRY
+鮭フライ
+Ramen
+Rice Dishes
+Deep fried salmon
+Yakisoba
+Child Menus
+7,00€
+Desserts
+Beverages
+Starters
+V12
+FRIED GYOZA
+餃子
+Ramen
+Rice Dishes
+Filled with pork
+mince, vegetables
+Yakisoba
+Child Menus
+6,80€
+Desserts
+Beverages
+Starters
+V13
+DEEP FRIED GYOZA
+揚げ餃子
+Ramen
+Rice Dishes
+Filled with pork mince, vegetables
+Yakisoba
+Child Menus
+6,80€
+Desserts
+Beverages
+Starters
+V14
+MENMA
+メンマ
+Ramen
+Rice Dishes
+Bamboo shoots
+and lava egg
+Yakisoba
+Child Menus
+6,20€
+Desserts
+Beverages
+Starters
+V15
+TORI KARA
+鶏の唐揚げ
+Ramen
+Rice Dishes
+Fried chicken
+Yakisoba
+Child Menus
+L 11,80€
+S 7,80€
+Desserts
+Beverages
+Starters
+V16
+BUTA SARA
+豚皿
+Ramen
+Rice Dishes
+Boiled chashu ham with soy
+sprouts and kimchi (see V3)
+Yakisoba
+Child Menus
+L 11,80€
+S 8,20€
+Desserts
+Beverages
+Starters
+V17
+BUTA KIMCHI
+豚キムチ
+Ramen
+Rice Dishes
+Fried pork belly with kimchi (see V3)
+Yakisoba
+Child Menus
+L 12,80€
+S 8,20€
+Desserts
+Beverages
+Starters
+V18
+YASAI ITAME
+野菜炒め
+Ramen
+Rice Dishes
+Fried pork belly, various
+vegetables with soy sauce
+Yakisoba
+Child Menus
+L 12,80€
+S 7,30€
+Desserts
+Beverages
+Starters
+V18
+MABO TOFU
+マーボー豆腐
+Ramen
+Rice Dishes
+Fried tofu with pork mince
+Yakisoba
+Child Menus
+L 13,00€
+S 8,00€
+Desserts
+Beverages
+N1
+SHOYU
+醤油ラーメン
+Noodle soup with soy sauce base
+12,50€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N1-2
+CHASU SHOYU
+チャーシュー醤油ラーメン
+Noodle soup with soy sauce base
+Child Menus
+Desserts
+Beverages13,50€
+x 2
+N2
+SHIO
+塩ラーメン
+Noodle soup with salt base
+11,80€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N2-2
+CHASHU SHIO
+チャーシュー塩ラーメン
+Noodle soup with salt base
+Child Menus
+Desserts
+Beverages12,80€
+x 2
+N3
+MISO
+味噌ラーメン
+Noodle soup with miso base
+13,20€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N3-2
+CHASHU MISO
+チャーシュー 味噌ラーメン
+Noodle soup with miso base
+Child Menus
+Desserts
+Beverages14,20€
+x 2
+N4
+TOKUSEI SHOYU
+特製醤油ラーメン
+Noodle soup with soy sauce base, with
+fried pork belly and vegetables
+14,50€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N4-2
+CHASHU TOKUSEI SHOYU
+チャーシュー特製醤油ラーメン
+Noodle soup with soy sauce base, with
+fried pork belly and vegetables
+Child Menus
+Desserts
+Beverages15,50€
+x 2
+N5
+CURRY
+カレーラーメン
+Noodle soup with a curry base and
+vegetables
+14,50€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N5-2
+CHASHU CURRY
+チャーシューカレーラーメン
+Noodle soup with a curry base and
+vegetables
+Child Menus
+Desserts
+Beverages15,50€
+x 2
+N6
+WANTAN
+ワンタン麺
+Noodle soup with a salt base with
+wantan (see E6)
+14,80€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N6-2
+CHASHU WANTAN
+チャーシューカレーラーメン
+Noodle soup with a salt base with
+wantan (see E6)
+Child Menus
+Desserts
+Beverages15,80€
+x 2
+N7
+CHANPON
+チャンポンラーメン
+Noodle soup with various vegetables,
+pork belly, crab and squid
+14,80€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N7-2
+CHASHU CHANPON
+チャーシューカレーラーメン
+Noodle soup with various vegetables,
+pork belly, crab and squid
+Child Menus
+Desserts
+Beverages15,80€
+x 2
+N8
+STAMINA
+スタミナラーメン
+Noodle soup with tried pork belly,
+vegetables and kimchi
+14,80€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N8-2
+CHASHU STAMINA
+チャーシュースタミナラーメン
+Noodle soup with tried pork belly,
+vegetables and kimchi
+Child Menus
+Desserts
+Beverages15,80€
+x 2
+N9
+TOKUSEI MISO
+特製味噌ラーメン
+Noodle soup with miso base and fried pork
+mince and vegetables (chili oil)
+14,80€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N9-2
+CHASHU TOKUSEI MISO
+チャーシュー特製味噌ラーメン
+Noodle soup with miso base and fried pork
+mince and vegetables (chili oil)
+Child Menus
+Desserts
+Beverages15,80€
+x 2
+N10
+NINNIKU MISO
+特製味噌ラーメン
+Noodle soup with miso base and garlic,
+vegetables and pork belly
+14,80€
+Starters
+Ramen
+Rice Dishes
+Yakisoba
+N10-2
+CHASHU NINNIKU MISO
+チャーシュー 特製味噌ラーメン
+Noodle soup with miso base and garlic,
+vegetables and pork belly
+Child Menus
+Desserts
+Beverages15,80€
+x 2
+Starters
+N11
+TANMEN
+タンメン
+Ramen
+Rice Dishes
+Noodle soup with a salt base and
+fried pork belly and vegetables
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+N13
+YASAI
+野菜ラーメン
+Ramen
+Rice Dishes
+Noodle soup with fried vegetables
+(soy sauce, salt or miso base)
+Yakisoba
+Child Menus
+14,20€
+Also available completely vegetarian
+Desserts
+Beverages
+Starters
+N14
+TOKUSEI TORIMISO
+特製鶏味噌ラーメン
+Ramen
+Rice Dishes
+Noodle soup with miso base with fried
+chicken and vegetables
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+N15
+TANTAN
+担々麺
+Ramen
+Rice Dishes
+Noodle soup with sesame base and
+marinated meat
+Yakisoba
+Child Menus
+15,30€
+Desserts
+Beverages
+Starters
+N16
+YASAI & MINCHI
+野菜とミンチの塩ラーメン
+Ramen
+Rice Dishes
+Noodle soup with salt base with vege-
+tables and fried pork mince (chili oil)
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+N17
+THAI-CURRY
+タイカレーラーメン
+Ramen
+Rice Dishes
+Noodle soup with curry paste with
+vegetables and deep fried chicken
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+N18
+TOKUSEI STAMINA
+特製スタミナラーメン
+Ramen
+Rice Dishes
+Noodle soup with fried pork belly and
+vegetables
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+N20
+MABOMEN
+マーボー麺
+Ramen
+Rice Dishes
+Noodle soud with tofu
+and minced meat
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+RAMEN EXTRAS
+E1
+LARGE SERVING
+E3
+LAVA EGG
+E2
+GARLIC
+Starters
+3,50€
+E1 LARGE SERVING
+2,30€
+2,30€
+Ramen
+E4
+CORN
+E6
+WANTAN
+E5
+SEAWEED
+Rice Dishes
+2,00€
+4,00
+2,50€
+E7
+MORE VEGETABLES
+E9
+SHRIMP
+E8
+Yakisoba
+RICE
+free of charge
+4,00€
+3,00€
+Child Menus
+Desserts
+E10
+TOFU
+3,00€
+Beverages
+Starters
+R1
+ONIGIRI (SHAKE, UME, OKAKA)
+おにぎり
+Ramen
+Rice Dishes
+Rice ball with salmon / pickled olum
+/ bonito lakes
+Yakisoba
+Child Menus
+3,50€
+Desserts
+Beverages
+Starters
+R2
+TENSHIN-HAN 6
+天津飯
+Ramen
+Rice Dishes
+Rice dish with special soy sauce on
+fried crab, vegetables and omelette
+Yakisoba
+Child Menus
+L 13,80€
+S 7,80€
+Desserts
+Beverages
+Starters
+R3
+CHAHAN 6,7
+炒飯
+Ramen
+Rice Dishes
+Fried rice with vegetables,
+egg and chashu ham
+Yakisoba
+Child Menus
+L 13,80€
+S 7,30€
+Desserts
+Beverages
+Starters
+R4
+TORI-CHAHAN 6,7
+鶏炒飯
+Ramen
+Rice Dishes
+Fried rice with chicken,
+egg and vegetables
+Yakisoba
+Child Menus
+L 13,80€
+S 9,30€
+Desserts
+Beverages
+Starters
+R5
+EBI-CHAHAN 6,7
+海老炒飯
+Ramen
+Rice Dishes
+Fried rice with crab,
+egg and vegetables
+Yakisoba
+Child Menus
+L 14,00€
+S 9,80€
+Desserts
+Beverages
+Starters
+R6
+KIMCHI-CHAHAN 6,7
+キムチ炒飯
+Ramen
+Rice Dishes
+Fried rice with kimchi and pork belly,
+egg and vegetables (see V3)
+Yakisoba
+Child Menus
+L 13,80€
+S 8,80€
+Desserts
+Beverages
+Starters
+R7
+YASAI-CHAHAN 6,7
+野菜炒飯
+Ramen
+Rice Dishes
+Fried rice with egg and vegetables
+Yakisoba
+Child Menus
+L 13,50€
+S 7,80€
+Desserts
+Beverages
+Starters
+R8
+CHUKA-DON 7
+中華丼
+Ramen
+Rice Dishes
+Fried crab, squid, pork belly
+and vegetables on rice
+Yakisoba
+Child Menus
+L 14,00€
+S 9,80€
+Desserts
+Beverages
+Starters
+R9
+MABO-DON 7
+麻婆丼
+Ramen
+Rice Dishes
+Fried tofu with pork
+belly on rice
+Yakisoba
+Child Menus
+L 13,80€
+S 9,00€
+Desserts
+Beverages
+Starters
+R10
+TORITERI-DON 7
+鶏の照焼丼
+Ramen
+Rice Dishes
+Fried chicken with teriyaki sauce on
+rice and vegetables
+Yakisoba
+Child Menus
+L 13,80€
+S 9,00€
+Desserts
+Beverages
+Starters
+Y1
+YAKISOBA 6
+焼そば
+Ramen
+Rice Dishes
+Fried noodles with pork belly
+and vegetables
+Yakisoba
+Child Menus
+13,80€
+Desserts
+Beverages
+Starters
+Y2
+YASAI YAKISOBA 6
+野菜焼そば
+Ramen
+Rice Dishes
+Fried noodles with vegetables
+Yakisoba
+Child Menus
+13,80€
+Desserts
+Beverages
+Starters
+Y3
+IKA YAKISOBA 6
+野菜焼そば
+Ramen
+Rice Dishes
+Fried noodles with
+squid and vegetable
+Yakisoba
+Child Menus
+13,80€
+Desserts
+Beverages
+Starters
+Y4
+TORI YAKISOBA 6
+鶏焼そば
+Ramen
+Rice Dishes
+Fried noodles with chicken
+and vegetables
+Yakisoba
+Child Menus
+13,80€
+Desserts
+Beverages
+Starters
+Y5
+MIX YAKISOBA 6
+ミックス焼そば
+Ramen
+Rice Dishes
+Fried noodles with pork belly,
+crab, squid and vegetables
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+Y6
+GOMOKU YAKISOBA 6
+五目焼そば
+Ramen
+Rice Dishes
+Fried noodles with various
+vegetables, pork belly
+and squid
+Yakisoba
+Child Menus
+14,80€
+Desserts
+Beverages
+Starters
+K1
+KIDS MENU
+お子様 メニュー
+Ramen
+Rice Dishes
+Tenshin Han (see R2),
+Ebi Fry (see V10),
+Tori Kara (see V15)
+Yakisoba
+Child Menus
+11,50€
+Desserts
+Beverages
+Starters
+K2
+NOODLE SOUP KIDS
+お子様ラーメン
+Ramen
+Rice Dishes
+(soy sauce, salt or miso base)
+Yakisoba
+Child Menus
+9,00€
+Desserts
+Beverages
+Starters
+D1
+GREEN TEA ICE
+抹茶アイス
+Ramen
+Rice Dishes
+5,00€
+Yakisoba
+Child Menus
+Desserts
+Beverages
+Starters
+D2
+MANGO ICE
+マンゴアイス
+Ramen
+Rice Dishes
+5,00€
+Yakisoba
+Child Menus
+Desserts
+Beverages
+0.20l on drought
+0.40l on drought
+KIRIN PILS
+0.25l on drought
+0.50l on drought
+ASAHI PILS
+0.25l on drought
+0.50l on drought
+BOLTON ALT ERDINGER WEIZEN (PALE)
+3.00
+0.50l bottle
+5.00
+ERDINGER WEIZEN (DARK)
+0.50l bottle
+SAKE (REISWEIN)
+Ozeki Dry (kalt) 0.18l bottle
+Atsukan (warm) 0.15l bottle
+ALKOHOLFREIES BIER
+Kirin Free 0.33l bottle
+Erdinger Weizen 0.50l bottle
+4.50
+Starters
+4.50
+Ramen
+4.00
+6.00
+6.00
+4.50
+Rice Dishes
+4.00
+6.00Yakisoba
+4.00
+4.50
+Child Menus
+Desserts
+Beverages
+COCA COLA 1
+GEROLSTEINER
+0.33l bottle
+3.50
+0.25l sparkling
+3.00
+YUZUKA
+GEROLSTEINER
+Starters
+0.33l bottle
+4.00
+0.75l sparkling
+6.80
+APPLE SPRITZER
+GEROLSTEINER
+Ramen
+0.25l bottle
+3.00
+0.25l still
+3.00
+GINGER ALE
+GEROLSTEINER
+Rice Dishes
+0.20l bottle
+3.00
+0.50l still
+5.00ORANGE JUICE
+Yakisoba
+0.20l bottle
+3.00
+Child Menus
+APPLE JUICE
+0.20l bottle
+3.00
+Desserts
+Beverages
+GREEN TEA (WARM /COLD)
+0.20l
+3.00
+GREEN TEA WITH HONEY
+0.47 bottle
+Starters
+4.50
+DUNKLER WEIZEN-TEA (COLD)
+Ramen
+0.20l
+2.3.00
+POMEGRANATE TEA
+0.47 bottle
+4.50
+JASMIN-TEA (WARM)
+Rice Dishes
+0.25l
+BLUEBERRY WHITE TEA
+0.47 bottle
+3.00 4.50
+Yakisoba
+Child Menus
+Desserts
+Beverages
+ALLERGENE ALLERGENE
+Wheat
+and derived products
+Rye
+and derived products
+Barley
+and derived products
+Oats
+and derived products
+Spelt
+and derived products
+Khorasan wheat
+and derived products
+Crustaceans
+and derived products
+Eggs
+and derived products
+Fish
+and derived products
+Peanuts
+and derived products
+Soybeans
+and derived products
+Dairy
+and derived products
+Almonds (Amygdalus communis L.)
+and derived products
+hazelnuts (Corylus aveliana)
+and derived products
+Walnuts (Juglans regla)
+and derived products
+Cashews (Anacardium occidentale)
+and derived products
+Peacans (Carya illinolesis)
+and derived products
+Pistachios (Pistacia vera)
+and derived products
+Macadamias (Macadamia ternifolia)
+and derived products
+Celery
+and derived products
+Mustard
+and derived products
+Sesame seeds
+and derived products
+Sulphor dioxide / Sulphites
+Lupines
+and derived products
+Molluscs
+and derived products
+Brazil nuts (Bertholletia excelsa)
+and derived products
+1
+caffeinated with colorant
+2
+with dye
+3
+With sweeteners
+4
+with preservatives
+5
+mit antioxidationsmitteln
+6
+red ginger
+7
+contains flavor enhancers

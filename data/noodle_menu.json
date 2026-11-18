@@ -1,0 +1,701 @@
+[
+ {
+  "nr": "V1",
+  "name": "MISO SOUP",
+  "jp": "味噌汁",
+  "text": "soup made from soy bean paste with seaweed",
+  "preis": [
+   "3,80€"
+  ]
+ },
+ {
+  "nr": "V2",
+  "name": "WANTAN SOUP",
+  "jp": "ワンタンスープ",
+  "text": "Soup with dumplings (see E6)",
+  "preis": [
+   "5,50€"
+  ]
+ },
+ {
+  "nr": "V3",
+  "name": "KIMCHI",
+  "jp": "キムチ",
+  "text": "Pickled chinese cabbage with chili and garlic",
+  "preis": [
+   "4,70€"
+  ]
+ },
+ {
+  "nr": "V4",
+  "name": "NANIWA SALAD",
+  "jp": "なにわサラダ",
+  "text": "Iceberg lettuce with tuna, toma- toes, corn, seaweed, egg and nomemade dressing",
+  "preis": [
+   "7,50€"
+  ]
+ },
+ {
+  "nr": "V5",
+  "name": "SALAD",
+  "jp": "ミニサラダ",
+  "text": "Small mixed salad with tuna",
+  "preis": [
+   "5,20€"
+  ]
+ },
+ {
+  "nr": "V6",
+  "name": "WAKAME SALAD",
+  "jp": "わかめサラダ",
+  "text": "Seaweed salad",
+  "preis": [
+   "7,00€"
+  ]
+ },
+ {
+  "nr": "V7",
+  "name": "EDAMAME",
+  "jp": "えだまめ",
+  "text": "Soybeans",
+  "preis": [
+   "5,80€"
+  ]
+ },
+ {
+  "nr": "V8",
+  "name": "GOMAAE",
+  "jp": "ほうれん草の胡麻和え",
+  "text": "Spinach with sesame dressing",
+  "preis": [
+   "5,80€"
+  ]
+ },
+ {
+  "nr": "V9",
+  "name": "TORI TERIYAKI",
+  "jp": "鶏の照焼",
+  "text": "Fried chicken with teriyaki sauce",
+  "preis": [
+   "7,20€"
+  ]
+ },
+ {
+  "nr": "V10",
+  "name": "EBI FRY",
+  "jp": "海老フライ",
+  "text": "Fried shrimps",
+  "preis": [
+   "7,00€"
+  ]
+ },
+ {
+  "nr": "V11",
+  "name": "SHAKE FRY",
+  "jp": "鮭フライ",
+  "text": "Deep fried salmon",
+  "preis": [
+   "7,00€"
+  ]
+ },
+ {
+  "nr": "V12",
+  "name": "FRIED GYOZA",
+  "jp": "餃子",
+  "text": "Filled with pork mince, vegetables",
+  "preis": [
+   "6,80€"
+  ]
+ },
+ {
+  "nr": "V13",
+  "name": "DEEP FRIED GYOZA",
+  "jp": "揚げ餃子",
+  "text": "Filled with pork mince, vegetables",
+  "preis": [
+   "6,80€"
+  ]
+ },
+ {
+  "nr": "V14",
+  "name": "MENMA",
+  "jp": "メンマ",
+  "text": "Bamboo shoots and lava egg",
+  "preis": [
+   "6,20€"
+  ]
+ },
+ {
+  "nr": "V15",
+  "name": "TORI KARA",
+  "jp": "鶏の唐揚げ",
+  "text": "Fried chicken",
+  "preis": [
+   "L 11,80€",
+   "S 7,80€"
+  ]
+ },
+ {
+  "nr": "V16",
+  "name": "BUTA SARA",
+  "jp": "豚皿",
+  "text": "Boiled chashu ham with soy sprouts and kimchi (see V3)",
+  "preis": [
+   "L 11,80€",
+   "S 8,20€"
+  ]
+ },
+ {
+  "nr": "V17",
+  "name": "BUTA KIMCHI",
+  "jp": "豚キムチ",
+  "text": "Fried pork belly with kimchi (see V3)",
+  "preis": [
+   "L 12,80€",
+   "S 8,20€"
+  ]
+ },
+ {
+  "nr": "V18",
+  "name": "YASAI ITAME",
+  "jp": "野菜炒め",
+  "text": "Fried pork belly, various vegetables with soy sauce",
+  "preis": [
+   "L 12,80€",
+   "S 7,30€"
+  ]
+ },
+ {
+  "nr": "V18",
+  "name": "MABO TOFU",
+  "jp": "マーボー豆腐",
+  "text": "Fried tofu with pork mince",
+  "preis": [
+   "L 13,00€",
+   "S 8,00€"
+  ]
+ },
+ {
+  "nr": "N1",
+  "name": "SHOYU",
+  "jp": "醤油ラーメン",
+  "text": "Noodle soup with soy sauce base",
+  "preis": [
+   "12,50€"
+  ]
+ },
+ {
+  "nr": "N1-2",
+  "name": "CHASU SHOYU",
+  "jp": "チャーシュー醤油ラーメン",
+  "text": "Noodle soup with soy sauce base",
+  "preis": [
+   "13,50€"
+  ]
+ },
+ {
+  "nr": "N2",
+  "name": "SHIO",
+  "jp": "塩ラーメン",
+  "text": "Noodle soup with salt base",
+  "preis": [
+   "11,80€"
+  ]
+ },
+ {
+  "nr": "N2-2",
+  "name": "CHASHU SHIO",
+  "jp": "チャーシュー塩ラーメン",
+  "text": "Noodle soup with salt base",
+  "preis": [
+   "12,80€"
+  ]
+ },
+ {
+  "nr": "N3",
+  "name": "MISO",
+  "jp": "味噌ラーメン",
+  "text": "Noodle soup with miso base",
+  "preis": [
+   "13,20€"
+  ]
+ },
+ {
+  "nr": "N3-2",
+  "name": "CHASHU MISO",
+  "jp": "チャーシュー 味噌ラーメン",
+  "text": "Noodle soup with miso base",
+  "preis": [
+   "14,20€"
+  ]
+ },
+ {
+  "nr": "N4",
+  "name": "TOKUSEI SHOYU",
+  "jp": "特製醤油ラーメン",
+  "text": "Noodle soup with soy sauce base, with fried pork belly and vegetables",
+  "preis": [
+   "14,50€"
+  ]
+ },
+ {
+  "nr": "N4-2",
+  "name": "CHASHU TOKUSEI SHOYU",
+  "jp": "チャーシュー特製醤油ラーメン",
+  "text": "Noodle soup with soy sauce base, with fried pork belly and vegetables",
+  "preis": [
+   "15,50€"
+  ]
+ },
+ {
+  "nr": "N5",
+  "name": "CURRY",
+  "jp": "カレーラーメン",
+  "text": "Noodle soup with a curry base and vegetables",
+  "preis": [
+   "14,50€"
+  ]
+ },
+ {
+  "nr": "N5-2",
+  "name": "CHASHU CURRY",
+  "jp": "チャーシューカレーラーメン",
+  "text": "Noodle soup with a curry base and vegetables",
+  "preis": [
+   "15,50€"
+  ]
+ },
+ {
+  "nr": "N6",
+  "name": "WANTAN",
+  "jp": "ワンタン麺",
+  "text": "Noodle soup with a salt base with wantan (see E6)",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N6-2",
+  "name": "CHASHU WANTAN",
+  "jp": "チャーシューカレーラーメン",
+  "text": "Noodle soup with a salt base with wantan (see E6)",
+  "preis": [
+   "15,80€"
+  ]
+ },
+ {
+  "nr": "N7",
+  "name": "CHANPON",
+  "jp": "チャンポンラーメン",
+  "text": "Noodle soup with various vegetables, pork belly, crab and squid",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N7-2",
+  "name": "CHASHU CHANPON",
+  "jp": "チャーシューカレーラーメン",
+  "text": "Noodle soup with various vegetables, pork belly, crab and squid",
+  "preis": [
+   "15,80€"
+  ]
+ },
+ {
+  "nr": "N8",
+  "name": "STAMINA",
+  "jp": "スタミナラーメン",
+  "text": "Noodle soup with tried pork belly, vegetables and kimchi",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N8-2",
+  "name": "CHASHU STAMINA",
+  "jp": "チャーシュースタミナラーメン",
+  "text": "Noodle soup with tried pork belly, vegetables and kimchi",
+  "preis": [
+   "15,80€"
+  ]
+ },
+ {
+  "nr": "N9",
+  "name": "TOKUSEI MISO",
+  "jp": "特製味噌ラーメン",
+  "text": "Noodle soup with miso base and fried pork mince and vegetables (chili oil)",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N9-2",
+  "name": "CHASHU TOKUSEI MISO",
+  "jp": "チャーシュー特製味噌ラーメン",
+  "text": "Noodle soup with miso base and fried pork mince and vegetables (chili oil)",
+  "preis": [
+   "15,80€"
+  ]
+ },
+ {
+  "nr": "N10",
+  "name": "NINNIKU MISO",
+  "jp": "特製味噌ラーメン",
+  "text": "Noodle soup with miso base and garlic, vegetables and pork belly",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N10-2",
+  "name": "CHASHU NINNIKU MISO",
+  "jp": "チャーシュー 特製味噌ラーメン",
+  "text": "Noodle soup with miso base and garlic, vegetables and pork belly",
+  "preis": [
+   "15,80€"
+  ]
+ },
+ {
+  "nr": "N11",
+  "name": "TANMEN",
+  "jp": "タンメン",
+  "text": "Noodle soup with a salt base and fried pork belly and vegetables",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N13",
+  "name": "YASAI",
+  "jp": "野菜ラーメン",
+  "text": "Noodle soup with fried vegetables (soy sauce, salt or miso base) Also available completely vegetarian",
+  "preis": [
+   "14,20€"
+  ]
+ },
+ {
+  "nr": "N14",
+  "name": "TOKUSEI TORIMISO",
+  "jp": "特製鶏味噌ラーメン",
+  "text": "Noodle soup with miso base with fried chicken and vegetables",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N15",
+  "name": "TANTAN",
+  "jp": "担々麺",
+  "text": "Noodle soup with sesame base and marinated meat",
+  "preis": [
+   "15,30€"
+  ]
+ },
+ {
+  "nr": "N16",
+  "name": "YASAI & MINCHI",
+  "jp": "野菜とミンチの塩ラーメン",
+  "text": "Noodle soup with salt base with vege- tables and fried pork mince (chili oil)",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N17",
+  "name": "THAI-CURRY",
+  "jp": "タイカレーラーメン",
+  "text": "Noodle soup with curry paste with vegetables and deep fried chicken",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N18",
+  "name": "TOKUSEI STAMINA",
+  "jp": "特製スタミナラーメン",
+  "text": "Noodle soup with fried pork belly and vegetables",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "N20",
+  "name": "MABOMEN",
+  "jp": "マーボー麺",
+  "text": "Noodle soud with tofu and minced meat RAMEN EXTRAS",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "E1",
+  "name": "LARGE SERVING",
+  "jp": "",
+  "text": "",
+  "preis": []
+ },
+ {
+  "nr": "E3",
+  "name": "LAVA EGG",
+  "jp": "",
+  "text": "",
+  "preis": []
+ },
+ {
+  "nr": "E2",
+  "name": "GARLIC",
+  "jp": "",
+  "text": "E1 LARGE SERVING",
+  "preis": [
+   "3,50€",
+   "2,30€",
+   "2,30€"
+  ]
+ },
+ {
+  "nr": "E4",
+  "name": "CORN",
+  "jp": "",
+  "text": "",
+  "preis": []
+ },
+ {
+  "nr": "E6",
+  "name": "WANTAN",
+  "jp": "",
+  "text": "",
+  "preis": []
+ },
+ {
+  "nr": "E5",
+  "name": "SEAWEED",
+  "jp": "",
+  "text": "4,00",
+  "preis": [
+   "2,00€",
+   "2,50€"
+  ]
+ },
+ {
+  "nr": "E7",
+  "name": "MORE VEGETABLES",
+  "jp": "",
+  "text": "",
+  "preis": []
+ },
+ {
+  "nr": "E9",
+  "name": "SHRIMP",
+  "jp": "",
+  "text": "",
+  "preis": []
+ },
+ {
+  "nr": "E8",
+  "name": "RICE",
+  "jp": "",
+  "text": "free of charge",
+  "preis": [
+   "4,00€",
+   "3,00€"
+  ]
+ },
+ {
+  "nr": "E10",
+  "name": "TOFU",
+  "jp": "",
+  "text": "",
+  "preis": [
+   "3,00€"
+  ]
+ },
+ {
+  "nr": "R1",
+  "name": "ONIGIRI (SHAKE, UME, OKAKA)",
+  "jp": "おにぎり",
+  "text": "Rice ball with salmon / pickled olum / bonito lakes",
+  "preis": [
+   "3,50€"
+  ]
+ },
+ {
+  "nr": "R2",
+  "name": "TENSHIN-HAN",
+  "jp": "天津飯",
+  "text": "Rice dish with special soy sauce on fried crab, vegetables and omelette",
+  "preis": [
+   "L 13,80€",
+   "S 7,80€"
+  ]
+ },
+ {
+  "nr": "R3",
+  "name": "CHAHAN 6,7",
+  "jp": "炒飯",
+  "text": "Fried rice with vegetables, egg and chashu ham",
+  "preis": [
+   "L 13,80€",
+   "S 7,30€"
+  ]
+ },
+ {
+  "nr": "R4",
+  "name": "TORI-CHAHAN 6,7",
+  "jp": "鶏炒飯",
+  "text": "Fried rice with chicken, egg and vegetables",
+  "preis": [
+   "L 13,80€",
+   "S 9,30€"
+  ]
+ },
+ {
+  "nr": "R5",
+  "name": "EBI-CHAHAN 6,7",
+  "jp": "海老炒飯",
+  "text": "Fried rice with crab, egg and vegetables",
+  "preis": [
+   "L 14,00€",
+   "S 9,80€"
+  ]
+ },
+ {
+  "nr": "R6",
+  "name": "KIMCHI-CHAHAN 6,7",
+  "jp": "キムチ炒飯",
+  "text": "Fried rice with kimchi and pork belly, egg and vegetables (see V3)",
+  "preis": [
+   "L 13,80€",
+   "S 8,80€"
+  ]
+ },
+ {
+  "nr": "R7",
+  "name": "YASAI-CHAHAN 6,7",
+  "jp": "野菜炒飯",
+  "text": "Fried rice with egg and vegetables",
+  "preis": [
+   "L 13,50€",
+   "S 7,80€"
+  ]
+ },
+ {
+  "nr": "R8",
+  "name": "CHUKA-DON",
+  "jp": "中華丼",
+  "text": "Fried crab, squid, pork belly and vegetables on rice",
+  "preis": [
+   "L 14,00€",
+   "S 9,80€"
+  ]
+ },
+ {
+  "nr": "R9",
+  "name": "MABO-DON",
+  "jp": "麻婆丼",
+  "text": "Fried tofu with pork belly on rice",
+  "preis": [
+   "L 13,80€",
+   "S 9,00€"
+  ]
+ },
+ {
+  "nr": "R10",
+  "name": "TORITERI-DON",
+  "jp": "鶏の照焼丼",
+  "text": "Fried chicken with teriyaki sauce on rice and vegetables",
+  "preis": [
+   "L 13,80€",
+   "S 9,00€"
+  ]
+ },
+ {
+  "nr": "Y1",
+  "name": "YAKISOBA",
+  "jp": "焼そば",
+  "text": "Fried noodles with pork belly and vegetables",
+  "preis": [
+   "13,80€"
+  ]
+ },
+ {
+  "nr": "Y2",
+  "name": "YASAI YAKISOBA",
+  "jp": "野菜焼そば",
+  "text": "Fried noodles with vegetables",
+  "preis": [
+   "13,80€"
+  ]
+ },
+ {
+  "nr": "Y3",
+  "name": "IKA YAKISOBA",
+  "jp": "野菜焼そば",
+  "text": "Fried noodles with squid and vegetable",
+  "preis": [
+   "13,80€"
+  ]
+ },
+ {
+  "nr": "Y4",
+  "name": "TORI YAKISOBA",
+  "jp": "鶏焼そば",
+  "text": "Fried noodles with chicken and vegetables",
+  "preis": [
+   "13,80€"
+  ]
+ },
+ {
+  "nr": "Y5",
+  "name": "MIX YAKISOBA",
+  "jp": "ミックス焼そば",
+  "text": "Fried noodles with pork belly, crab, squid and vegetables",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "Y6",
+  "name": "GOMOKU YAKISOBA",
+  "jp": "五目焼そば",
+  "text": "Fried noodles with various vegetables, pork belly and squid",
+  "preis": [
+   "14,80€"
+  ]
+ },
+ {
+  "nr": "K1",
+  "name": "KIDS MENU",
+  "jp": "お子様 メニュー",
+  "text": "Tenshin Han (see R2), Ebi Fry (see V10), Tori Kara (see V15)",
+  "preis": [
+   "11,50€"
+  ]
+ },
+ {
+  "nr": "K2",
+  "name": "NOODLE SOUP KIDS",
+  "jp": "お子様ラーメン",
+  "text": "(soy sauce, salt or miso base)",
+  "preis": [
+   "9,00€"
+  ]
+ },
+ {
+  "nr": "D1",
+  "name": "GREEN TEA ICE",
+  "jp": "抹茶アイス",
+  "text": "",
+  "preis": [
+   "5,00€"
+  ]
+ },
+ {
+  "nr": "D2",
+  "name": "MANGO ICE",
+  "jp": "マンゴアイス",
+  "text": "0.20l on drought 0.40l on drought KIRIN PILS 0.25l on drought 0.50l on drought ASAHI PILS 0.25l on drought 0.50l on drought BOLTON ALT ERDINGER WEIZEN (PALE) 3.00 0.50l bottle 5.00 ERDINGER WEIZEN (DARK) 0.50l bottle SAKE (REISWEIN) Ozeki Dry (kalt) 0.18l bottle Atsukan (warm) 0.15l bottle ALKOHOLFREIES BIER Kirin Free 0.33l bottle Erdinger Weizen 0.50l bottle 4.50 4.50 4.00 6.00 6.00 4.50 4.00 6.00Yakisoba 4.00 4.50 COCA COLA 1 GEROLSTEINER 0.33l bottle 3.50 0.25l sparkling 3.00 YUZUKA GEROLSTEINER 0.33l bottle 4.00 0.75l sparkling 6.80 APPLE SPRITZER GEROLSTEINER 0.25l bottle 3.00 0.25l still 3.00 GINGER ALE GEROLSTEINER 0.20l bottle 3.00 0.50l still 5.00ORANGE JUICE 0.20l bottle 3.00 APPLE JUICE 0.20l bottle 3.00 GREEN TEA (WARM /COLD) 0.20l 3.00 GREEN TEA WITH HONEY 0.47 bottle 4.50 DUNKLER WEIZEN-TEA (COLD) 0.20l 2.3.00 POMEGRANATE TEA 0.47 bottle 4.50 JASMIN-TEA (WARM) 0.25l BLUEBERRY WHITE TEA 0.47 bottle 3.00 4.50 ALLERGENE ALLERGENE Wheat and derived products Rye and derived products Barley and derived products Oats and derived products Spelt and derived products Khorasan wheat and derived products Crustaceans and derived products Eggs and derived products Fish and derived products Peanuts and derived products Soybeans and derived products Dairy and derived products Almonds (Amygdalus communis L.) and derived products hazelnuts (Corylus aveliana) and derived products Walnuts (Juglans regla) and derived products Cashews (Anacardium occidentale) and derived products Peacans (Carya illinolesis) and derived products Pistachios (Pistacia vera) and derived products Macadamias (Macadamia ternifolia) and derived products Celery and derived products Mustard and derived products Sesame seeds and derived products Sulphor dioxide / Sulphites Lupines and derived products Molluscs and derived products Brazil nuts (Bertholletia excelsa) and derived products 1 caffeinated with colorant 2 with dye 3 With sweeteners 4 with preservatives 5 mit antioxidationsmitteln 6 red ginger 7 contains flavor enhancers",
+  "preis": [
+   "5,00€"
+  ]
+ }
+]
