@@ -78,9 +78,9 @@
     function show(i) {
       [].forEach.call(cats.children, function (b, j) { b.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
       list.innerHTML = data[i].g.map(function (g) {
-        return '<div class="dish"><span class="jpn" lang="ja">' + esc(g.jp) + '</span><span class="nm"><small>' + esc(g.nr) + '</small>' + esc(g.n) +
-          '</span><span class="pr">' + esc(g.p) + '</span>' + (g.t ? '<span class="ds">' + esc(g.t) + '</span>' : '') +
-          (g.b ? '<img class="ph" loading="lazy" alt="' + esc(g.n) + '" src="' + esc(g.b) + '">' : '') + '</div>';
+        return '<div class="dish">' + (g.b ? '<img class="ph" loading="lazy" alt="' + esc(g.n) + '" src="' + esc(g.b) + '">' : '<span class="noph" lang="ja" aria-hidden="true">なにわ</span>') +
+          '<span class="nm"><small>' + esc(g.nr) + '</small>' + esc(g.n) + '</span><span class="pr">' + esc(g.p) + '</span>' +
+          (g.jp ? '<span class="jpn" lang="ja">' + esc(g.jp) + '</span>' : '') + (g.t ? '<span class="ds">' + esc(g.t) + '</span>' : '') + '</div>';
       }).join('');
     }
     data.forEach(function (c, i) {
@@ -90,5 +90,14 @@
       cats.appendChild(b);
     });
     show(box.dataset.menu === 'noodles' ? 1 : 0);
+    var z = document.createElement('div');
+    z.className = 'zoom'; z.innerHTML = '<img alt=""><p></p>';
+    document.body.appendChild(z);
+    z.addEventListener('click', function () { z.classList.remove('on'); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') z.classList.remove('on'); });
+    list.addEventListener('click', function (e) {
+      if (!e.target.classList.contains('ph')) return;
+      z.firstChild.src = e.target.src; z.lastChild.textContent = e.target.alt; z.classList.add('on');
+    });
   }
 })();
