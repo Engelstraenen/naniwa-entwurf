@@ -23,7 +23,7 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 
 ## 8. Offene Fragen
 - Projekt liegt noch im Sitzungsordner der App, nicht in Dropbox/CLAUDE/Projekte/NANIWA.
-- Nudel-Karte: Texte englisch (aus PDF), Extras/Getränke fehlen.
+- Nudel-Karte: Extras/Getränke fehlen noch (nur im PDF).
 
 ## 9. Entschieden
 - 18.11.2026: Naniwa = Freund, Demo öffentlich als Entwurf ok. Echte Clips neu rendern, alles frischer, aber in der CI.
