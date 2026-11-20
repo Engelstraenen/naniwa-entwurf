@@ -28,3 +28,5 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 ## 9. Entschieden
 - 18.11.2026: Naniwa = Freund, Demo öffentlich als Entwurf ok. Echte Clips neu rendern, alles frischer, aber in der CI.
 - 19.11.2026: Storyboard 3 gewählt, 2 gefällt auch, 1 nicht. Noodles und Sushi müssen getrennt sein (Auswahl auf der Startseite).
+- 19.11.2026: Jedes Gericht braucht ein Foto; fehlende per KI, immer mit dem echten Naniwa-Teller der Kategorie als Vorlage.
+- 20.11.2026: Video-Entwürfe nur kostenlos (Unlimited), auch wenn es dauert.
