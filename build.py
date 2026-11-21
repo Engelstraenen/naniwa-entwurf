@@ -191,12 +191,18 @@ noodles += vsec("n-anrichten", "", """<span class="status" data-status="noodles"
     <h1>NANIWA</h1>
     <p class="sub">Noodles &amp; Soups. Ramen im japanischen Viertel, seit 1986.</p>
     <div class="row"><a class="pill" href="#karte">Speisekarte</a><a class="pill" href="#besuch">Besuch uns</a></div>""", "../", eager=True)
+noodles += vsec("n-vorspeisen", "", """<span class="jp" lang="ja">前菜</span>
+    <h2>Vorspeisen,<br>frisch angerichtet.</h2>
+    <p class="body">Gyoza direkt aus der Pfanne, Kimchi, Edamame und mehr: Unsere Vorspeisen kommen frisch auf den Teller, perfekt zum Teilen vor der Nudelsuppe.</p>""", "../")
 noodles += vsec("n-kueche", "", """<span class="jp" lang="ja">自家製麺</span>
     <h2>Hausgemachte Nudeln.<br>Jeden Tag.</h2>
     <p class="body">Unsere Ramennudeln machen wir täglich selbst, nach eigener Rezeptur mit japanischem Mehl. Je nach Suppe servieren wir dünne, gerade Straight-Nudeln oder die dickeren, welligen Miso-Ramen.</p>""", "../")
-noodles += vsec("n-schale-v2", "brush-bottom", """<span class="jp" lang="ja">スープ</span>
+noodles += vsec("n-schale-v2", "", """<span class="jp" lang="ja">スープ</span>
     <h2>Täglich frische Brühe.</h2>
     <p class="body">Die NANIWA-Brühe ist die Basis aller unserer Nudelsuppen. Seit über dreißig Jahren setzen wir sie jeden Morgen frisch auf, aus regionalen und ausschließlich natürlichen Zutaten: klassisch aus Schweineknochen oder als reine Gemüsebrühe.</p>""", "../")
+noodles += vsec("n-schlange-v3", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
+    <h2>Keine Reservierung.<br>Die Schlange lohnt sich.</h2>
+    <p class="body">Nicht selten bildet sich vor unserer Tür eine Warteschlange. Trotz kleiner Wartezeit finden wir bestimmt einen Platz für euch.</p>""", "../")
 noodles += """<section class="quote">
   <blockquote class="rv">„Die Suppen, die vermutlich nirgendwo auf der Welt besser schmecken, werden in traditionellem Porzellan serviert. Die Suche nach der perfekten Nudel findet hier täglich statt.“<cite>Düsseldorf geht aus 2012/2013</cite></blockquote>
 </section>
