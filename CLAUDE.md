@@ -37,3 +37,6 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 - 21.11.2026: Speisekarte groß und hell im Original-Stil, Fotos nie beschneiden; Nudelfotos komplett aus https://noodle.naniwa.de/speisekarteeng.pdf (tools/nudel_fotos.py).
 - 21.11.2026: Bewertungen (Google/Tripadvisor/Trustpilot) gehören auf jede Webseite. Kein Video doppelt auf einer Seite.
 - 21.11.2026: V6 Vorspeisen (Gyoza aus der Pfanne, Sesam auf Kimchi/Edamame, Wan-Entwurf 15 s) abgenommen. Endrender nur MiniMax H3 2K, ohne Referenzvideo, mit 4K-Startbild startbilder/f6_vorspeisen.jpg, Preis vorher nennen.
+- 21.11.2026: Außenansicht muss der echten Fassade entsprechen (Oststraße-Ecke, weiße Markisen, schwarze NANIWA-Schilder, graues Haus mit Bullauge und großem Ring). Eugens Foto ist geschützt: nur Vorlage (originale/aussen_noodles.jpg, nicht in Git), daraus startbilder/f3c_aussen.jpg mit anderen Leuten/Autos; Video V3c daraus. Altes V3 (erfundene Fassade) verworfen.
+- 21.11.2026: Nutzer-Bewertungen: bis zur Google-Schnittstelle markierte Beispieltexte (SAMPLES in build.py), ruhig überblendet. Trustpilot entfernt.
+- 21.11.2026: V5 Sushi-Teller verworfen (KI-Look), V5b aus echtem Endbild von originale/sushi.mp4.
