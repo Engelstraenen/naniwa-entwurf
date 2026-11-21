@@ -80,6 +80,58 @@ def menu(shop, lead, note):
 """
 
 
+REVIEWS = {
+    "noodles": {
+        "google": ("4,5", 4.5, "5.288", "https://www.google.com/maps/search/?api=1&query=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+D%C3%BCsseldorf"),
+        "trip": ("4,3", 4.3, "949", "https://www.tripadvisor.de/Restaurant_Review-g187373-d3345259-Reviews-Naniwa_Noodles_Soups-Dusseldorf_North_Rhine_Westphalia.html", "Platz 30 von 1.990 Restaurants in Düsseldorf"),
+        "themes": "Am häufigsten erwähnt in den Google-Bewertungen: <b>Nudelsuppen</b> · <b>Brühe</b> · <b>Warteschlange</b>",
+    },
+    "sushi": {
+        "google": ("4,6", 4.6, "530", "https://www.google.com/maps/search/?api=1&query=Naniwa+Sushi+%26+More+Klosterstra%C3%9Fe+68A+D%C3%BCsseldorf"),
+        "trip": ("4,0", 4.0, "223", "https://www.tripadvisor.de/Restaurant_Review-g187373-d1976176-Reviews-Naniwa_Sushi_More-Dusseldorf_North_Rhine_Westphalia.html", ""),
+        "themes": "",
+    },
+}
+
+
+def reviews(shop):
+    d = REVIEWS[shop]
+    g, t = d["google"], d["trip"]
+    rank = f'<span class="rank">{t[4]}</span>' if t[4] else ""
+    themes = f'<p class="themes">{d["themes"]}</p>' if d["themes"] else ""
+    return f"""<section class="reviews" id="bewertungen">
+  <div class="in">
+    <span class="jp" lang="ja">お客様の声</span>
+    <h2>Das sagen unsere Gäste</h2>
+    <div class="rgrid">
+      <a class="rcard rv" href="{g[3]}" target="_blank" rel="noopener">
+        <span class="plat">Google</span>
+        <span class="score">{g[0]}<small> / 5</small></span>
+        <span class="stars" style="--r:{g[1]}" role="img" aria-label="{g[0]} von 5 Sternen"></span>
+        <span class="cnt">{g[2]} Bewertungen</span>
+        <span class="go">Bewertungen lesen →</span>
+      </a>
+      <a class="rcard rv" href="{t[3]}" target="_blank" rel="noopener">
+        <span class="plat">Tripadvisor</span>
+        <span class="score">{t[0]}<small> / 5</small></span>
+        <span class="stars" style="--r:{t[1]}" role="img" aria-label="{t[0]} von 5 Punkten"></span>
+        <span class="cnt">{t[2]} Bewertungen</span>{rank}
+        <span class="go">Bewertungen lesen →</span>
+      </a>
+      <a class="rcard leer rv" href="https://de.trustpilot.com/evaluate/naniwa.de" target="_blank" rel="noopener">
+        <span class="plat">Trustpilot</span>
+        <span class="score">Noch keine Bewertung</span>
+        <span class="cnt">Auf Trustpilot gibt es bisher kein NANIWA-Profil.</span>
+        <span class="go">Als Erste:r bewerten →</span>
+      </a>
+    </div>
+    {themes}
+    <p class="stand">Stand: 21.11.2026 · Werte von Google Maps, Tripadvisor und Trustpilot</p>
+  </div>
+</section>
+"""
+
+
 def visit(shop, name, street, tel_show, tel, hint, maps):
     return f"""<section class="visit" id="besuch">
   <div class="in">
@@ -113,7 +165,7 @@ index += """<main>
 <div class="brandline"><h1>NANIWA</h1><p>Ramen &amp; Sushi im japanischen Viertel, seit 1986</p></div>
 <section class="choose" aria-label="Restaurant wählen">
   <a class="side" href="noodles/">
-    <video data-bg muted loop playsinline autoplay preload="auto" poster="assets/img/n-schale.jpg" src="assets/video/n-schale.mp4"></video>
+    <video data-bg muted loop playsinline autoplay preload="auto" poster="assets/img/n-anrichten.jpg" src="assets/video/n-anrichten.mp4"></video>
     <span class="jp" lang="ja">ラーメン</span>
     <h2>Noodles<br>&amp; Soups</h2>
     <p>Frische, handgemachte Nudelsuppen in einem der ältesten japanischen Noodle-Restaurants in Düsseldorf.</p>
@@ -132,29 +184,27 @@ index += """<main>
 index += footer("./") + tail("./", menu=False)
 
 # ---------- Noodles & Soups ----------
-nav_n = '<a href="#karte">Speisekarte</a><a href="#besuch">Besuch</a><a href="#faq">FAQ</a><a class="switch" href="../sushi/">Zu Sushi &amp; More</a>'
+nav_n = '<a href="#karte">Speisekarte</a><a href="#bewertungen">Bewertungen</a><a href="#besuch">Besuch</a><a href="#faq">FAQ</a><a class="switch" href="../sushi/">Zu Sushi &amp; More</a>'
 noodles = head("NANIWA Noodles & Soups – Ramen in Düsseldorf", "Hausgemachte Ramen seit 1986. Oststraße 55, Düsseldorf. Keine Reservierungen.", "../")
 noodles += top("../", nav_n) + "<main>\n"
-noodles += vsec("n-kueche", "", """<span class="status" data-status="noodles"></span>
+noodles += vsec("n-anrichten", "", """<span class="status" data-status="noodles"></span>
     <h1>NANIWA</h1>
     <p class="sub">Noodles &amp; Soups. Ramen im japanischen Viertel, seit 1986.</p>
     <div class="row"><a class="pill" href="#karte">Speisekarte</a><a class="pill" href="#besuch">Besuch uns</a></div>""", "../", eager=True)
-noodles += vsec("n-schale", "", """<span class="jp" lang="ja">自家製麺</span>
+noodles += vsec("n-kueche", "", """<span class="jp" lang="ja">自家製麺</span>
     <h2>Hausgemachte Nudeln.<br>Jeden Tag.</h2>
     <p class="body">Unsere Ramennudeln machen wir täglich selbst, nach eigener Rezeptur mit japanischem Mehl. Je nach Suppe servieren wir dünne, gerade Straight-Nudeln oder die dickeren, welligen Miso-Ramen.</p>""", "../")
-noodles += vsec("n-bruehe", "", """<span class="jp" lang="ja">スープ</span>
+noodles += vsec("n-schale-v2", "brush-bottom", """<span class="jp" lang="ja">スープ</span>
     <h2>Täglich frische Brühe.</h2>
     <p class="body">Die NANIWA-Brühe ist die Basis aller unserer Nudelsuppen. Seit über dreißig Jahren setzen wir sie jeden Morgen frisch auf, aus regionalen und ausschließlich natürlichen Zutaten: klassisch aus Schweineknochen oder als reine Gemüsebrühe.</p>""", "../")
-noodles += vsec("n-schlange", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
-    <h2>Keine Reservierung.<br>Die Schlange lohnt sich.</h2>
-    <p class="body">Nicht selten bildet sich vor unserer Tür eine Warteschlange. Trotz kleiner Wartezeit finden wir bestimmt einen Platz für euch.</p>""", "../")
 noodles += """<section class="quote">
   <blockquote class="rv">„Die Suppen, die vermutlich nirgendwo auf der Welt besser schmecken, werden in traditionellem Porzellan serviert. Die Suche nach der perfekten Nudel findet hier täglich statt.“<cite>Düsseldorf geht aus 2012/2013</cite></blockquote>
 </section>
 """
 noodles += menu("noodles", "Unsere Karte mit allen Ramen, Reisgerichten und Yakisoba.", "L = groß, S = klein. Extras (Ei, Mais, Wantan, mehr Gemüse) und Getränke gibt es vor Ort.")
-noodles += visit("noodles", "NANIWA Noodles &amp; Soups", "Oststraße 55", "+49 211 16 17 99", "+49211161799", "Keine Reservierungen · Take-away telefonisch oder vor Ort", "https://www.google.com/maps/dir/?api=1&destination=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+40211+D%C3%BCsseldorf")
-noodles += """<section class="faq brush-top" id="faq">
+noodles += reviews("noodles")
+noodles += visit("noodles", "NANIWA Noodles &amp; Soups", "Oststraße 55", "+49 211 16 17 99", "+49211161799", "Keine Reservierungen. Die Schlange lohnt sich! Take-away telefonisch oder vor Ort.", "https://www.google.com/maps/dir/?api=1&destination=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+40211+D%C3%BCsseldorf")
+noodles += """<section class="faq" id="faq">
   <div class="in">
     <h2>Häufige Fragen</h2>
     <details><summary>Kann ich mit EC- oder Kreditkarte bezahlen?</summary><p>Wir akzeptieren EC, Kreditkarten und Apple Pay. American Express können wir leider nicht annehmen.</p></details>
@@ -172,7 +222,7 @@ noodles += """<section class="faq brush-top" id="faq">
 noodles += footer("../") + tail("../")
 
 # ---------- Sushi & More ----------
-nav_s = '<a href="#karte">Speisekarte</a><a href="#besuch">Reservieren</a><a class="switch" href="../noodles/">Zu Noodles &amp; Soups</a>'
+nav_s = '<a href="#karte">Speisekarte</a><a href="#bewertungen">Bewertungen</a><a href="#besuch">Reservieren</a><a class="switch" href="../noodles/">Zu Noodles &amp; Soups</a>'
 sushi = head("NANIWA Sushi & More – Sushi in Düsseldorf", "Sushi & More seit 2004. Klosterstraße 68A, Düsseldorf. Reservierung unter 0211 83 0 22 22.", "../")
 sushi += top("../", nav_s) + "<main>\n"
 sushi += vsec("s-haende", "", """<span class="status" data-status="sushi"></span>
@@ -182,10 +232,11 @@ sushi += vsec("s-haende", "", """<span class="status" data-status="sushi"></span
 sushi += vsec("s-teller", "", """<span class="jp" lang="ja">寿司</span>
     <h2>Immer frisch.<br>Über 70 Kreationen.</h2>
     <p class="body">Unser Sushi bereiten wir immer frisch und mit den besten Zutaten zu. Über 70 Menü-Kreationen zeigen, wie reich und vielfältig die kulinarische Begegnung sein kann.</p>""", "../")
-sushi += vsec("s-haende", "brush-bottom", """<span class="jp" lang="ja">いただきます</span>
+sushi += vsec("s-nigiri", "brush-bottom", """<span class="jp" lang="ja">いただきます</span>
     <h2>Nouvelle Cuisine Japonaise.</h2>
     <p class="body">Als wir 2004 eröffneten, war das ein kleines Wagnis: klassische japanische Küche, erweitert um europäische Einflüsse. Heute ist die kleine Schwester von Noodles &amp; Soups ein ruhiger, entspannter Ort auf der Klosterstraße. Itadakimasu!</p>""", "../")
 sushi += menu("sushi", "Vorspeisen, Nigiri, Maki, Udon, Soba und Don.", "Hinweise zu Allergenen findest du unter „Allergien“ im Fuß der Seite.")
+sushi += reviews("sushi")
 sushi += visit("sushi", "NANIWA Sushi &amp; More", "Klosterstraße 68A", "+49 211 83 0 22 22", "+4921183022222", "Reservierung telefonisch", "https://www.google.com/maps/dir/?api=1&destination=Naniwa+Sushi+%26+More+Klosterstra%C3%9Fe+68A+40211+D%C3%BCsseldorf")
 sushi += "</main>\n" + footer("../") + tail("../")
 

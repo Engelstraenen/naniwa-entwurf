@@ -6,6 +6,8 @@ Neue Webseite für NANIWA Düsseldorf (Freund von Eugen, kein Kunde) als Design-
 
 ## 2. Qualitätsanspruch & Referenzen
 - CI von naniwa.de beibehalten, nur frischer: Schwarz, Weiß, Limettengrün #A0C41E, Creme #F7E8DF, Pinsel-Kanten. Logo = `site/assets/img/naniwa-logo.svg` (nie neu setzen). Originalschriften Gopher/Gilroy sind kommerziell, Ersatz: Outfit.
+- Look wie die Originalseite: clean und herzlich, helle Inhaltsbereiche (Weiß/Schwarz/Limette, grüne Trennlinien), Videos dunkel. Speisekarte = große Fotokarten wie sushi.naniwa.de/speisekarte, ganze Teller sichtbar.
+- Bewertungen je Laden: Google, Tripadvisor, Trustpilot (Werte in build.py REVIEWS, Stand 21.11.2026; Trustpilot hat kein Profil).
 - Bestätigte Storyboards: `storyboards/sb3_hintergrundvideos.jpg` (wird zuerst gebaut), `sb2_scrollytelling.jpg` (danach). Storyboard 1 abgelehnt.
 
 ## 3. Regeln für dieses Projekt
@@ -30,3 +32,7 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 - 19.11.2026: Storyboard 3 gewählt, 2 gefällt auch, 1 nicht. Noodles und Sushi müssen getrennt sein (Auswahl auf der Startseite).
 - 19.11.2026: Jedes Gericht braucht ein Foto; fehlende per KI, immer mit dem echten Naniwa-Teller der Kategorie als Vorlage.
 - 20.11.2026: Video-Entwürfe nur kostenlos (Unlimited), auch wenn es dauert.
+- 20.11.2026: V1b Küche (Nudeln aus dem Sieb, garnieren) abgenommen.
+- 21.11.2026: Hauptvideo bei Ramen = echtes Naniwa-Anrichtvideo (originale/noodle.mp4), auch auf der Startseite. Danach KI-Clips im Look der Originalvideos: Vorspeisen anrichten (V6), Tantan Men (V7), Tokusei Miso (V8).
+- 21.11.2026: Speisekarte groß und hell im Original-Stil, Fotos nie beschneiden; Nudelfotos komplett aus https://noodle.naniwa.de/speisekarteeng.pdf (tools/nudel_fotos.py).
+- 21.11.2026: Bewertungen (Google/Tripadvisor/Trustpilot) gehören auf jede Webseite. Kein Video doppelt auf einer Seite.
