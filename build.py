@@ -50,7 +50,7 @@ def vsec(video, cls, inner, r, eager=False):
 def vstill(img, alt, cls, inner, r):
     """Abschnitt mit echtem Foto (langsamer Zoom), solange es kein passendes Video gibt."""
     return f"""<section class="vsec {cls}">
-  <img class="still kb" src="{r}assets/img/{img}" alt="{alt}" loading="lazy" decoding="async">
+  <img class="still kb" src="{r}assets/img/{img}" srcset="{r}assets/img/{img.replace('.jpg', '-m.jpg')} 1800w, {r}assets/img/{img} 3840w" sizes="100vw" alt="{alt}" loading="lazy" decoding="async">
   <div class="txt rv">{inner}</div>
 </section>
 """
@@ -239,9 +239,12 @@ noodles += vsec("n-vorspeisen", "", """<span class="jp" lang="ja">前菜</span>
 noodles += vsec("n-kueche", "", """<span class="jp" lang="ja">自家製麺</span>
     <h2>Hausgemachte Nudeln.<br>Jeden Tag.</h2>
     <p class="body">Unsere Ramennudeln machen wir täglich selbst, nach eigener Rezeptur mit japanischem Mehl. Je nach Suppe servieren wir dünne, gerade Straight-Nudeln oder die dickeren, welligen Miso-Ramen.</p>""", "../")
-noodles += vsec("n-schale-v2", "brush-bottom", """<span class="jp" lang="ja">スープ</span>
+noodles += vsec("n-schale-v2", "", """<span class="jp" lang="ja">スープ</span>
     <h2>Täglich frische Brühe.</h2>
     <p class="body">Die NANIWA-Brühe ist die Basis aller unserer Nudelsuppen. Seit über dreißig Jahren setzen wir sie jeden Morgen frisch auf, aus regionalen und ausschließlich natürlichen Zutaten: klassisch aus Schweineknochen oder als reine Gemüsebrühe.</p>""", "../")
+noodles += vstill("n-aussen.jpg", "NANIWA Noodles &amp; Soups an der Oststraße: Gäste warten vor dem Lokal", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
+    <h2>Keine Reservierung.<br>Die Schlange lohnt sich.</h2>
+    <p class="body">Nicht selten bildet sich vor unserer Tür eine Warteschlange. Trotz kleiner Wartezeit finden wir bestimmt einen Platz für euch.</p>""", "../")
 noodles += """<section class="quote">
   <blockquote class="rv">„Die Suppen, die vermutlich nirgendwo auf der Welt besser schmecken, werden in traditionellem Porzellan serviert. Die Suche nach der perfekten Nudel findet hier täglich statt.“<cite>Düsseldorf geht aus 2012/2013</cite></blockquote>
 </section>
