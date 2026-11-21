@@ -61,14 +61,27 @@
     });
   });
 
+  // Kopfzeile auf hellen Bereichen dunkel schalten
+  var hell = [].slice.call(document.querySelectorAll('.menu,.reviews,.visit,.faq,.quote'));
+  if (hell.length) {
+    var tick = false;
+    var check = function () {
+      tick = false;
+      var y = 60, on = hell.some(function (h) { var r = h.getBoundingClientRect(); return r.top <= y && r.bottom > y; });
+      document.body.classList.toggle('hell', on);
+    };
+    window.addEventListener('scroll', function () { if (!tick) { tick = true; requestAnimationFrame(check); } }, { passive: true });
+    check();
+  }
+
   // Sanft einblenden
   var rvs = [].slice.call(document.querySelectorAll('.rv'));
   if ('IntersectionObserver' in window && !still) {
     var rio = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); rio.unobserve(e.target); } });
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('vis'); rio.unobserve(e.target); } });
     }, { threshold: 0.15 });
     rvs.forEach(function (r) { rio.observe(r); });
-  } else rvs.forEach(function (r) { r.classList.add('in'); });
+  } else rvs.forEach(function (r) { r.classList.add('vis'); });
 
   // Speisekarte
   var box = document.querySelector('[data-menu]');
@@ -78,9 +91,10 @@
     function show(i) {
       [].forEach.call(cats.children, function (b, j) { b.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
       list.innerHTML = data[i].g.map(function (g) {
-        return '<div class="dish">' + (g.b ? '<img class="ph" loading="lazy" alt="' + esc(g.n) + '" src="' + esc(g.b) + '">' : '<span class="noph" lang="ja" aria-hidden="true">なにわ</span>') +
-          '<span class="nm"><small>' + esc(g.nr) + '</small>' + esc(g.n) + '</span><span class="pr">' + esc(g.p) + '</span>' +
-          (g.jp ? '<span class="jpn" lang="ja">' + esc(g.jp) + '</span>' : '') + (g.t ? '<span class="ds">' + esc(g.t) + '</span>' : '') + '</div>';
+        return '<article class="dish"><div class="tp"><small>' + esc(g.nr) + '</small>' + (g.jp ? '<span lang="ja">' + esc(g.jp) + '</span>' : '') + '</div>' +
+          (g.b ? '<img class="ph" loading="lazy" decoding="async" width="1200" height="800" alt="' + esc(g.n) + '" src="' + esc(g.b) + '">' : '') +
+          '<div class="rw"><h3 class="nm">' + esc(g.n) + '</h3><span class="pr">' + esc(g.p) + '</span></div>' +
+          (g.t ? '<p class="ds">' + esc(g.t) + '</p>' : '') + '</article>';
       }).join('');
     }
     data.forEach(function (c, i) {
