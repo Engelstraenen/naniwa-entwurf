@@ -36,3 +36,4 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 - 21.11.2026: Hauptvideo bei Ramen = echtes Naniwa-Anrichtvideo (originale/noodle.mp4), auch auf der Startseite. Danach KI-Clips im Look der Originalvideos: Vorspeisen anrichten (V6), Tantan Men (V7), Tokusei Miso (V8).
 - 21.11.2026: Speisekarte groß und hell im Original-Stil, Fotos nie beschneiden; Nudelfotos komplett aus https://noodle.naniwa.de/speisekarteeng.pdf (tools/nudel_fotos.py).
 - 21.11.2026: Bewertungen (Google/Tripadvisor/Trustpilot) gehören auf jede Webseite. Kein Video doppelt auf einer Seite.
+- 21.11.2026: V6 Vorspeisen (Gyoza aus der Pfanne, Sesam auf Kimchi/Edamame, Wan-Entwurf 15 s) abgenommen. Endrender nur MiniMax H3 2K, ohne Referenzvideo, mit 4K-Startbild startbilder/f6_vorspeisen.jpg, Preis vorher nennen.
