@@ -7,7 +7,7 @@ Neue Webseite für NANIWA Düsseldorf (Freund von Eugen, kein Kunde) als Design-
 ## 2. Qualitätsanspruch & Referenzen
 - CI von naniwa.de beibehalten, nur frischer: Schwarz, Weiß, Limettengrün #A0C41E, Creme #F7E8DF, Pinsel-Kanten. Logo = `site/assets/img/naniwa-logo.svg` (nie neu setzen). Originalschriften Gopher/Gilroy sind kommerziell, Ersatz: Outfit.
 - Look wie die Originalseite: clean und herzlich, helle Inhaltsbereiche (Weiß/Schwarz/Limette, grüne Trennlinien), Videos dunkel. Speisekarte = große Fotokarten wie sushi.naniwa.de/speisekarte, ganze Teller sichtbar.
-- Bewertungen je Laden: Google, Tripadvisor, Trustpilot (Werte in build.py REVIEWS, Stand 21.11.2026; Trustpilot hat kein Profil).
+- Bewertungen je Laden: Google + Tripadvisor, bewegt (Hochzählen, Sterne, Laufbänder), Werte in build.py REVIEWS, Stand 21.11.2026. Trustpilot entfernt (kein Profil, Eugen 21.11.).
 - Bestätigte Storyboards: `storyboards/sb3_hintergrundvideos.jpg` (wird zuerst gebaut), `sb2_scrollytelling.jpg` (danach). Storyboard 1 abgelehnt.
 
 ## 3. Regeln für dieses Projekt

@@ -82,52 +82,59 @@ def menu(shop, lead, note):
 
 REVIEWS = {
     "noodles": {
-        "google": ("4,5", 4.5, "5.288", "https://www.google.com/maps/search/?api=1&query=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+D%C3%BCsseldorf"),
-        "trip": ("4,3", 4.3, "949", "https://www.tripadvisor.de/Restaurant_Review-g187373-d3345259-Reviews-Naniwa_Noodles_Soups-Dusseldorf_North_Rhine_Westphalia.html", "Platz 30 von 1.990 Restaurants in Düsseldorf"),
-        "themes": "Am häufigsten erwähnt in den Google-Bewertungen: <b>Nudelsuppen</b> · <b>Brühe</b> · <b>Warteschlange</b>",
+        "google": ("4,5", 4.5, 5288, "https://www.google.com/maps/search/?api=1&query=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+D%C3%BCsseldorf"),
+        "trip": ("4,3", 4.3, 949, "https://www.tripadvisor.de/Restaurant_Review-g187373-d3345259-Reviews-Naniwa_Noodles_Soups-Dusseldorf_North_Rhine_Westphalia.html", "Platz 30 von 1.990 Restaurants in Düsseldorf"),
+        "themes": [("Nudelsuppen", 139), ("Brühe", 84), ("Warteschlange", 81), ("Menüs", 29)],
     },
     "sushi": {
-        "google": ("4,6", 4.6, "530", "https://www.google.com/maps/search/?api=1&query=Naniwa+Sushi+%26+More+Klosterstra%C3%9Fe+68A+D%C3%BCsseldorf"),
-        "trip": ("4,0", 4.0, "223", "https://www.tripadvisor.de/Restaurant_Review-g187373-d1976176-Reviews-Naniwa_Sushi_More-Dusseldorf_North_Rhine_Westphalia.html", ""),
-        "themes": "",
+        "google": ("4,6", 4.6, 530, "https://www.google.com/maps/search/?api=1&query=Naniwa+Sushi+%26+More+Klosterstra%C3%9Fe+68A+D%C3%BCsseldorf"),
+        "trip": ("4,0", 4.0, 223, "https://www.tripadvisor.de/Restaurant_Review-g187373-d1976176-Reviews-Naniwa_Sushi_More-Dusseldorf_North_Rhine_Westphalia.html", ""),
+        "themes": [("Reservieren", 17), ("Chef", 12), ("Lokal", 10), ("Udon", 9)],
     },
 }
+
+
+def tsd(n):
+    return f"{n:,}".replace(",", ".")
 
 
 def reviews(shop):
     d = REVIEWS[shop]
     g, t = d["google"], d["trip"]
     rank = f'<span class="rank">{t[4]}</span>' if t[4] else ""
-    themes = f'<p class="themes">{d["themes"]}</p>' if d["themes"] else ""
+
+    def card(name, v, note):
+        return f"""<a class="rcard rv" href="{v[3]}" target="_blank" rel="noopener">
+        <span class="plat">{name}</span>
+        <span class="score"><b data-to="{v[1]}" data-dec="1">{v[0]}</b><small> / 5</small></span>
+        <span class="stars" style="--r:{v[1]}" role="img" aria-label="{v[0]} von 5"></span>
+        <span class="cnt"><b data-to="{v[2]}">{tsd(v[2])}</b> Bewertungen</span>{note}
+        <span class="go">Bewertungen lesen →</span>
+      </a>"""
+
+    star = '<i class="st">★★★★★</i>'
+    row1 = [f'<span class="chip"><b>Google</b> {g[0]} {star} {tsd(g[2])} Bewertungen</span>',
+            f'<span class="chip"><b>Tripadvisor</b> {t[0]} {star} {tsd(t[2])} Bewertungen</span>']
+    if t[4]:
+        row1.append(f'<span class="chip"><b>Tripadvisor</b> {t[4]}</span>')
+    row2 = [f'<span class="chip">„{w}“ <b>{n}× erwähnt</b> auf Google</span>' for w, n in d["themes"]]
+    def track(items):
+        one = "".join(items * max(2, 8 // len(items)))
+        return f'<div class="track">{one}{one}</div>'
     return f"""<section class="reviews" id="bewertungen">
   <div class="in">
     <span class="jp" lang="ja">お客様の声</span>
     <h2>Das sagen unsere Gäste</h2>
     <div class="rgrid">
-      <a class="rcard rv" href="{g[3]}" target="_blank" rel="noopener">
-        <span class="plat">Google</span>
-        <span class="score">{g[0]}<small> / 5</small></span>
-        <span class="stars" style="--r:{g[1]}" role="img" aria-label="{g[0]} von 5 Sternen"></span>
-        <span class="cnt">{g[2]} Bewertungen</span>
-        <span class="go">Bewertungen lesen →</span>
-      </a>
-      <a class="rcard rv" href="{t[3]}" target="_blank" rel="noopener">
-        <span class="plat">Tripadvisor</span>
-        <span class="score">{t[0]}<small> / 5</small></span>
-        <span class="stars" style="--r:{t[1]}" role="img" aria-label="{t[0]} von 5 Punkten"></span>
-        <span class="cnt">{t[2]} Bewertungen</span>{rank}
-        <span class="go">Bewertungen lesen →</span>
-      </a>
-      <a class="rcard leer rv" href="https://de.trustpilot.com/evaluate/naniwa.de" target="_blank" rel="noopener">
-        <span class="plat">Trustpilot</span>
-        <span class="score">Noch keine Bewertung</span>
-        <span class="cnt">Auf Trustpilot gibt es bisher kein NANIWA-Profil.</span>
-        <span class="go">Als Erste:r bewerten →</span>
-      </a>
+      {card("Google", g, "")}
+      {card("Tripadvisor", t, rank)}
     </div>
-    {themes}
-    <p class="stand">Stand: 21.11.2026 · Werte von Google Maps, Tripadvisor und Trustpilot</p>
   </div>
+  <div class="ticker" aria-hidden="true">
+    <div class="band">{track(row1)}</div>
+    <div class="band rev">{track(row2)}</div>
+  </div>
+  <div class="in"><p class="stand">Stand: 21.11.2026 · Werte von Google Maps und Tripadvisor</p></div>
 </section>
 """
 
