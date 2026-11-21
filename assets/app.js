@@ -74,6 +74,22 @@
     check();
   }
 
+  // Zahlen hochzählen, sobald sichtbar (Bewertungen)
+  var nums = [].slice.call(document.querySelectorAll('[data-to]'));
+  function fmt(v, dec) { return dec ? v.toFixed(dec).replace('.', ',') : Math.round(v).toLocaleString('de-DE'); }
+  function count(el) {
+    var to = parseFloat(el.dataset.to), dec = +(el.dataset.dec || 0), t0 = null, dur = 1700;
+    function step(t) { if (!t0) t0 = t; var k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = fmt(to * e, dec); if (k < 1) requestAnimationFrame(step); }
+    requestAnimationFrame(step);
+  }
+  if (nums.length && 'IntersectionObserver' in window && !still) {
+    nums.forEach(function (el) { el.textContent = fmt(0, +(el.dataset.dec || 0)); });
+    var nio = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { count(e.target); nio.unobserve(e.target); } });
+    }, { threshold: 0.6 });
+    nums.forEach(function (el) { nio.observe(el); });
+  }
+
   // Sanft einblenden
   var rvs = [].slice.call(document.querySelectorAll('.rv'));
   if ('IntersectionObserver' in window && !still) {
