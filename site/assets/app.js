@@ -74,6 +74,34 @@
     check();
   }
 
+  // Gäste-Stimmen: ruhiges Überblenden (Desktop 3 Karten, Handy 1 Karte)
+  var vbox = document.querySelector('[data-voices]');
+  if (vbox) {
+    var texts = JSON.parse(vbox.dataset.voices), mq = window.matchMedia('(max-width:820px)'), timer = null;
+    var build = function () {
+      var n = mq.matches ? 1 : 3, slots = [], html = '';
+      vbox.style.setProperty('--n', n);
+      for (var i = 0; i < n; i++) slots.push([]);
+      texts.forEach(function (t, i) { slots[i % n].push(t); });
+      vbox.innerHTML = slots.map(function (sl) {
+        return '<div class="vslot">' + sl.map(function (t, k) {
+          return '<figure class="voice' + (k === 0 ? ' on' : '') + '"><p>' + t.replace(/[<>&]/g, '') + '</p><span class="tag">Beispiel · noch keine echte Bewertung</span></figure>';
+        }).join('') + '</div>';
+      }).join('');
+      if (timer) clearInterval(timer);
+      if (still) return;
+      var tick = 0, pos = slots.map(function () { return 0; });
+      // ruhig: pro Takt wechselt nur eine Karte, reihum
+      timer = setInterval(function () {
+        var si = tick % n, slot = vbox.children[si], c = slot.children;
+        if (c.length > 1) { c[pos[si]].classList.remove('on'); pos[si] = (pos[si] + 1) % c.length; var nx = c[pos[si]]; setTimeout(function () { nx.classList.add('on'); }, 900); }
+        tick++;
+      }, n > 1 ? 6000 : 8000);
+    };
+    build();
+    if (mq.addEventListener) mq.addEventListener('change', build);
+  }
+
   // Zahlen hochzählen, sobald sichtbar (Bewertungen)
   var nums = [].slice.call(document.querySelectorAll('[data-to]'));
   function fmt(v, dec) { return dec ? v.toFixed(dec).replace('.', ',') : Math.round(v).toLocaleString('de-DE'); }

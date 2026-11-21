@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Baut die drei Seiten des NANIWA-Entwurfs nach site/. Aufruf: python3 build.py"""
+import json
 import pathlib
 
 ROOT = pathlib.Path(__file__).parent / "site"
@@ -42,6 +43,15 @@ def vsec(video, cls, inner, r, eager=False):
   <video data-bg muted loop playsinline preload="{'auto' if eager else 'none'}" {'autoplay ' if eager else ''}poster="{r}assets/img/{video}.jpg" src="{r}assets/video/{video}.mp4"></video>
   <div class="txt rv">{inner}</div>
   <button class="pause" type="button" aria-pressed="false" aria-label="Video anhalten"></button>
+</section>
+"""
+
+
+def vstill(img, alt, cls, inner, r):
+    """Abschnitt mit echtem Foto (langsamer Zoom), solange es kein passendes Video gibt."""
+    return f"""<section class="vsec {cls}">
+  <img class="still kb" src="{r}assets/img/{img}" alt="{alt}" loading="lazy" decoding="async">
+  <div class="txt rv">{inner}</div>
 </section>
 """
 
@@ -94,6 +104,27 @@ REVIEWS = {
 }
 
 
+# Beispieltexte (selbst geschrieben, sichtbar als Beispiel markiert), bis die echten Google-Bewertungen per Schnittstelle kommen
+SAMPLES = {
+    "noodles": [
+        "Die Brühe schmeckt, als hätte sie den ganzen Tag gezogen, und die Nudeln haben genau den richtigen Biss.",
+        "Kurz gewartet, schnell bedient und richtig satt geworden. Miso Ramen mit Gyoza ist mein Standard.",
+        "Seit Jahren unser fester Platz im japanischen Viertel. Jeder Besuch fühlt sich an wie ein kleiner Abstecher nach Japan.",
+        "Faire Preise, große Schalen und ein Team, das auch bei vollem Haus ruhig und freundlich bleibt.",
+        "Die Tantan Men hatte genau die Schärfe, die ich mag. Beim nächsten Mal ist die Tokusei Miso dran.",
+        "Take-away funktioniert prima: Nudeln und Suppe kommen getrennt, zuhause schmeckt es wie im Lokal.",
+    ],
+    "sushi": [
+        "Kleines, ruhiges Lokal mit sehr frischem Fisch. Die Nigiri waren butterzart.",
+        "Herzlicher Service und eine Karte, bei der man immer wieder etwas Neues entdeckt.",
+        "Neben dem Sushi haben uns vor allem die Udon begeistert. Ehrliche, feine japanische Küche.",
+        "Liebevoll angerichtet, entspannte Stimmung, faire Preise. Ideal für einen Abend zu zweit.",
+        "Riesige Maki-Auswahl, alles frisch gerollt. Am Wochenende lieber vorher anrufen.",
+        "Wir kommen immer wieder: gleichbleibend gute Qualität und ein Team, das sich Zeit nimmt.",
+    ],
+}
+
+
 def tsd(n):
     return f"{n:,}".replace(",", ".")
 
@@ -129,6 +160,10 @@ def reviews(shop):
       {card("Google", g, "")}
       {card("Tripadvisor", t, rank)}
     </div>
+  </div>
+  <div class="in">
+    <div class="voices" data-voices='{json.dumps(SAMPLES[shop], ensure_ascii=False).replace("'", "&#39;")}'></div>
+    <p class="vnote">Beispieltexte zur Gestaltung. Hier erscheinen nach der Anbindung die echten Google-Bewertungen.</p>
   </div>
   <div class="ticker" aria-hidden="true">
     <div class="band">{track(row1)}</div>
@@ -204,12 +239,9 @@ noodles += vsec("n-vorspeisen", "", """<span class="jp" lang="ja">前菜</span>
 noodles += vsec("n-kueche", "", """<span class="jp" lang="ja">自家製麺</span>
     <h2>Hausgemachte Nudeln.<br>Jeden Tag.</h2>
     <p class="body">Unsere Ramennudeln machen wir täglich selbst, nach eigener Rezeptur mit japanischem Mehl. Je nach Suppe servieren wir dünne, gerade Straight-Nudeln oder die dickeren, welligen Miso-Ramen.</p>""", "../")
-noodles += vsec("n-schale-v2", "", """<span class="jp" lang="ja">スープ</span>
+noodles += vsec("n-schale-v2", "brush-bottom", """<span class="jp" lang="ja">スープ</span>
     <h2>Täglich frische Brühe.</h2>
     <p class="body">Die NANIWA-Brühe ist die Basis aller unserer Nudelsuppen. Seit über dreißig Jahren setzen wir sie jeden Morgen frisch auf, aus regionalen und ausschließlich natürlichen Zutaten: klassisch aus Schweineknochen oder als reine Gemüsebrühe.</p>""", "../")
-noodles += vsec("n-schlange-v3", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
-    <h2>Keine Reservierung.<br>Die Schlange lohnt sich.</h2>
-    <p class="body">Nicht selten bildet sich vor unserer Tür eine Warteschlange. Trotz kleiner Wartezeit finden wir bestimmt einen Platz für euch.</p>""", "../")
 noodles += """<section class="quote">
   <blockquote class="rv">„Die Suppen, die vermutlich nirgendwo auf der Welt besser schmecken, werden in traditionellem Porzellan serviert. Die Suche nach der perfekten Nudel findet hier täglich statt.“<cite>Düsseldorf geht aus 2012/2013</cite></blockquote>
 </section>
