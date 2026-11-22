@@ -214,7 +214,7 @@ index += """<main>
     <div class="row"><span class="pill lime">Zu den Nudeln</span><span class="status" data-status="noodles"></span></div>
   </a>
   <a class="side" href="sushi/">
-    <video data-bg muted loop playsinline autoplay preload="auto" poster="assets/img/s-teller.jpg" src="assets/video/s-teller.mp4"></video>
+    <video data-bg muted loop playsinline autoplay preload="auto" poster="assets/img/s-original.jpg" src="assets/video/s-original.mp4"></video>
     <span class="jp" lang="ja">寿司</span>
     <h2>Sushi<br>&amp; More</h2>
     <p>Feinste traditionelle Sushi-Qualität und bester Service im Herzen von Düsseldorf.</p>
@@ -236,13 +236,13 @@ noodles += vsec("n-anrichten", "", """<span class="status" data-status="noodles"
 noodles += vsec("n-vorspeisen", "", """<span class="jp" lang="ja">前菜</span>
     <h2>Vorspeisen,<br>frisch angerichtet.</h2>
     <p class="body">Gyoza direkt aus der Pfanne, Kimchi, Edamame und mehr: Unsere Vorspeisen kommen frisch auf den Teller, perfekt zum Teilen vor der Nudelsuppe.</p>""", "../")
-noodles += vsec("n-kueche", "", """<span class="jp" lang="ja">自家製麺</span>
-    <h2>Hausgemachte Nudeln.<br>Jeden Tag.</h2>
-    <p class="body">Unsere Ramennudeln machen wir täglich selbst, nach eigener Rezeptur mit japanischem Mehl. Je nach Suppe servieren wir dünne, gerade Straight-Nudeln oder die dickeren, welligen Miso-Ramen.</p>""", "../")
+noodles += vsec("n-tantan", "", """<span class="jp" lang="ja">担々麺</span>
+    <h2>Tantan Men.<br>Sesam trifft Chili.</h2>
+    <p class="body">Cremige Sesam-Brühe, mariniertes Hackfleisch, Pak Choi und feine Chili-Fäden: Unsere Tantan Men ist würzig, nussig und wärmt von innen.</p>""", "../")
 noodles += vsec("n-schale-v2", "", """<span class="jp" lang="ja">スープ</span>
     <h2>Täglich frische Brühe.</h2>
     <p class="body">Die NANIWA-Brühe ist die Basis aller unserer Nudelsuppen. Seit über dreißig Jahren setzen wir sie jeden Morgen frisch auf, aus regionalen und ausschließlich natürlichen Zutaten: klassisch aus Schweineknochen oder als reine Gemüsebrühe.</p>""", "../")
-noodles += vstill("n-aussen.jpg", "NANIWA Noodles &amp; Soups an der Oststraße: Gäste warten vor dem Lokal", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
+noodles += vsec("n-schlange-v3c", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
     <h2>Keine Reservierung.<br>Die Schlange lohnt sich.</h2>
     <p class="body">Nicht selten bildet sich vor unserer Tür eine Warteschlange. Trotz kleiner Wartezeit finden wir bestimmt einen Platz für euch.</p>""", "../")
 noodles += """<section class="quote">
@@ -273,14 +273,14 @@ noodles += footer("../") + tail("../")
 nav_s = '<a href="#karte">Speisekarte</a><a href="#bewertungen">Bewertungen</a><a href="#besuch">Reservieren</a><a class="switch" href="../noodles/">Zu Noodles &amp; Soups</a>'
 sushi = head("NANIWA Sushi & More – Sushi in Düsseldorf", "Sushi & More seit 2004. Klosterstraße 68A, Düsseldorf. Reservierung unter 0211 83 0 22 22.", "../")
 sushi += top("../", nav_s) + "<main>\n"
-sushi += vsec("s-haende", "", """<span class="status" data-status="sushi"></span>
+sushi += vsec("s-original", "", """<span class="status" data-status="sushi"></span>
     <h1>NANIWA</h1>
     <p class="sub">Sushi &amp; More. Direkt gegenüber, seit 2004.</p>
     <div class="row"><a class="pill lime" href="tel:+4921183022222">Tisch reservieren</a><a class="pill" href="#karte">Speisekarte</a></div>""", "../", eager=True)
-sushi += vsec("s-teller", "", """<span class="jp" lang="ja">寿司</span>
+sushi += vsec("s-nigiri", "", """<span class="jp" lang="ja">寿司</span>
     <h2>Immer frisch.<br>Über 70 Kreationen.</h2>
     <p class="body">Unser Sushi bereiten wir immer frisch und mit den besten Zutaten zu. Über 70 Menü-Kreationen zeigen, wie reich und vielfältig die kulinarische Begegnung sein kann.</p>""", "../")
-sushi += vsec("s-nigiri", "brush-bottom", """<span class="jp" lang="ja">いただきます</span>
+sushi += vsec("s-teller-v5b", "brush-bottom", """<span class="jp" lang="ja">いただきます</span>
     <h2>Nouvelle Cuisine Japonaise.</h2>
     <p class="body">Als wir 2004 eröffneten, war das ein kleines Wagnis: klassische japanische Küche, erweitert um europäische Einflüsse. Heute ist die kleine Schwester von Noodles &amp; Soups ein ruhiger, entspannter Ort auf der Klosterstraße. Itadakimasu!</p>""", "../")
 sushi += menu("sushi", "Vorspeisen, Nigiri, Maki, Udon, Soba und Don.", "Hinweise zu Allergenen findest du unter „Allergien“ im Fuß der Seite.")
