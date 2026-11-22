@@ -41,3 +41,4 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 - 21.11.2026: Nutzer-Bewertungen: bis zur Google-Schnittstelle markierte Beispieltexte (SAMPLES in build.py), ruhig überblendet. Trustpilot entfernt.
 - 21.11.2026: V5 Sushi-Teller verworfen (KI-Look), V5b aus echtem Endbild von originale/sushi.mp4.
 - 22.11.2026: Tantan nur mit EINEM Pak Choi (V7b). Noodles-Reihenfolge: Original-Anrichtvideo, Vorspeisen, Tantan, Tokusei Miso, Schlange. Sushi: komplettes Original-Video, Nigiri, Sushi-Teller V5b.
+- 22.11.2026: V8b Tokusei Miso (MiniMax-Entwurf 15 s) abgenommen. Endrender nur MiniMax H3 2K, ohne Referenzvideo, mit 4K-Startbild startbilder/f8_tokusei_miso.jpg, Preis vorher nennen.
