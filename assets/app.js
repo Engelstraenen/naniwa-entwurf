@@ -42,6 +42,9 @@
   // Videos: nur abspielen, wenn sichtbar; Pause-Knopf; weniger Bewegung respektieren
   var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var vids = [].slice.call(document.querySelectorAll('video[data-bg]'));
+  if (window.matchMedia('(max-width:820px) and (orientation:portrait)').matches) {
+    vids.forEach(function (v) { if (v.dataset.m) v.src = v.dataset.m; });
+  }
   if ('IntersectionObserver' in window) {
     var vio = new IntersectionObserver(function (es) {
       es.forEach(function (e) {
@@ -135,7 +138,7 @@
     function show(i) {
       [].forEach.call(cats.children, function (b, j) { b.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
       list.innerHTML = data[i].g.map(function (g) {
-        return '<article class="dish"><div class="tp"><small>' + esc(g.nr) + '</small>' + (g.jp ? '<span lang="ja">' + esc(g.jp) + '</span>' : '') + '</div>' +
+        return '<article class="dish">' + (g.nr || g.jp ? '<div class="tp"><small>' + esc(g.nr) + '</small>' + (g.jp ? '<span lang="ja">' + esc(g.jp) + '</span>' : '') + '</div>' : '') +
           (g.b ? '<img class="ph" loading="lazy" decoding="async" width="1200" height="800" alt="' + esc(g.n) + '" src="' + esc(g.b) + '">' : '') +
           '<div class="rw"><h3 class="nm">' + esc(g.n) + '</h3><span class="pr">' + esc(g.p) + '</span></div>' +
           (g.t ? '<p class="ds">' + esc(g.t) + '</p>' : '') + '</article>';
