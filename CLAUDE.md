@@ -25,7 +25,7 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 
 ## 8. Offene Fragen
 - Projekt liegt noch im Sitzungsordner der App, nicht in Dropbox/CLAUDE/Projekte/NANIWA.
-- Nudel-Karte: Extras/Getränke fehlen noch (nur im PDF).
+- Nudel-Karte: Extras + Getränke ergänzt (22.11., aus PDF S. 38, 59–61). „Dunkler Weizen-Tee“ steht in der PDF mit „2.3.00“, als 3,00 € übernommen.
 
 ## 9. Entschieden
 - 18.11.2026: Naniwa = Freund, Demo öffentlich als Entwurf ok. Echte Clips neu rendern, alles frischer, aber in der CI.

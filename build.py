@@ -39,8 +39,10 @@ def top(r, nav):
 
 
 def vsec(video, cls, inner, r, eager=False):
+    # 2K-Endrender: Handy hochkant bekommt einen eigenen Ausschnitt in voller Höhe (nie verkleinern)
+    m = f' data-m="{r}assets/video/{video}-m.mp4"' if (ROOT / "assets" / "video" / f"{video}-m.mp4").exists() else ""
     return f"""<section class="vsec {cls}">
-  <video data-bg muted loop playsinline preload="{'auto' if eager else 'none'}" {'autoplay ' if eager else ''}poster="{r}assets/img/{video}.jpg" src="{r}assets/video/{video}.mp4"></video>
+  <video data-bg muted loop playsinline preload="{'auto' if eager else 'none'}" {'autoplay ' if eager else ''}poster="{r}assets/img/{video}.jpg" src="{r}assets/video/{video}.mp4"{m}></video>
   <div class="txt rv">{inner}</div>
   <button class="pause" type="button" aria-pressed="false" aria-label="Video anhalten"></button>
 </section>
@@ -249,7 +251,7 @@ noodles += """<section class="quote">
   <blockquote class="rv">„Die Suppen, die vermutlich nirgendwo auf der Welt besser schmecken, werden in traditionellem Porzellan serviert. Die Suche nach der perfekten Nudel findet hier täglich statt.“<cite>Düsseldorf geht aus 2012/2013</cite></blockquote>
 </section>
 """
-noodles += menu("noodles", "Unsere Karte mit allen Ramen, Reisgerichten und Yakisoba.", "L = groß, S = klein. Extras (Ei, Mais, Wantan, mehr Gemüse) und Getränke gibt es vor Ort.")
+noodles += menu("noodles", "Unsere Karte mit allen Ramen, Reisgerichten und Yakisoba.", "L = groß, S = klein. Allergene und Zusatzstoffe auf Nachfrage.")
 noodles += reviews("noodles")
 noodles += visit("noodles", "NANIWA Noodles &amp; Soups", "Oststraße 55", "+49 211 16 17 99", "+49211161799", "Keine Reservierungen. Die Schlange lohnt sich! Take-away telefonisch oder vor Ort.", "https://www.google.com/maps/dir/?api=1&destination=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+40211+D%C3%BCsseldorf")
 noodles += """<section class="faq" id="faq">
