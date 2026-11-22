@@ -239,9 +239,9 @@ noodles += vsec("n-vorspeisen", "", """<span class="jp" lang="ja">前菜</span>
 noodles += vsec("n-tantan", "", """<span class="jp" lang="ja">担々麺</span>
     <h2>Tantan Men.<br>Sesam trifft Chili.</h2>
     <p class="body">Cremige Sesam-Brühe, mariniertes Hackfleisch, Pak Choi und feine Chili-Fäden: Unsere Tantan Men ist würzig, nussig und wärmt von innen.</p>""", "../")
-noodles += vsec("n-schale-v2", "", """<span class="jp" lang="ja">スープ</span>
-    <h2>Täglich frische Brühe.</h2>
-    <p class="body">Die NANIWA-Brühe ist die Basis aller unserer Nudelsuppen. Seit über dreißig Jahren setzen wir sie jeden Morgen frisch auf, aus regionalen und ausschließlich natürlichen Zutaten: klassisch aus Schweineknochen oder als reine Gemüsebrühe.</p>""", "../")
+noodles += vsec("n-tokusei", "", """<span class="jp" lang="ja">特製味噌</span>
+    <h2>Tokusei Miso.<br>Die Spezialität des Hauses.</h2>
+    <p class="body">Täglich frisch aufgesetzte Miso-Brühe, wellige Miso-Nudeln und obendrauf frisch im Wok gebratenes Gemüse mit Schweinehack und einer Prise Chili.</p>""", "../")
 noodles += vsec("n-schlange-v3c", "brush-bottom", """<span class="jp" lang="ja">ようこそ</span>
     <h2>Keine Reservierung.<br>Die Schlange lohnt sich.</h2>
     <p class="body">Nicht selten bildet sich vor unserer Tür eine Warteschlange. Trotz kleiner Wartezeit finden wir bestimmt einen Platz für euch.</p>""", "../")
