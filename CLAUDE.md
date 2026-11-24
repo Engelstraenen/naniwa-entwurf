@@ -14,6 +14,7 @@ Neue Webseite für NANIWA Düsseldorf (Freund von Eugen, kein Kunde) als Design-
 - Immer als „Design-Entwurf · nicht die offizielle Seite“ markiert, `noindex`.
 - Clips werden neu gerendert: erst kostenlose Entwürfe, 2K-Endrender nur nach Preis + OK.
 - Ab 24.11.2026: Video-Entwürfe auf Dreamina (Seedance 2.5, 720P, Unlimited an), Bilder bis 2K auf Dreamina (GPT Image 2.5 Sunburst), 4K-Standbilder auf sjinn (Nano Banana 2.1). Nur generieren, wo Unlimited an und Preis 0.
+- Preise live 24.11.2026: Dreamina Seedance 2.5 8 s · 720P = Unlimited 0 (sonst 256), 1080P = 624 Dreamina-Credits (Guthaben 53,2K). sjinn MiniMax H3 2K = 150 sjinn-Credits/s (15 s = 2.250, echtes Detail nur ca. 1280–1920 px). Für mehr Auflösung zuerst Dreamina 1080P (nativ, günstiger), nicht MiniMax 2K.
 - Fassade/Schlange vor dem Lokal: kein echtes Material vorhanden; KI-Bild ohne Schriftzug, Eugen muss es abnehmen.
 
 ## 5. Zugänge
@@ -44,3 +45,4 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 - 21.11.2026: V5 Sushi-Teller verworfen (KI-Look), V5b aus echtem Endbild von originale/sushi.mp4.
 - 22.11.2026: Tantan nur mit EINEM Pak Choi (V7b). Noodles-Reihenfolge: Original-Anrichtvideo, Vorspeisen, Tantan, Tokusei Miso, Schlange. Sushi: komplettes Original-Video, Nigiri, Sushi-Teller V5b.
 - 22.11.2026: V8b Tokusei Miso (MiniMax-Entwurf 15 s) abgenommen. Endrender nur MiniMax H3 2K, ohne Referenzvideo, mit 4K-Startbild startbilder/f8_tokusei_miso.jpg, Preis vorher nennen.
+- 24.11.2026: Tantan bleibt erstmal 720P kostenlos (Dreamina V7c), danach nachschärfen; 1080P auf Dreamina (624 Credits) schaut Eugen später an.
