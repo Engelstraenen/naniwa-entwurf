@@ -13,18 +13,20 @@ Neue Webseite für NANIWA Düsseldorf (Freund von Eugen, kein Kunde) als Design-
 ## 3. Regeln für dieses Projekt
 - Immer als „Design-Entwurf · nicht die offizielle Seite“ markiert, `noindex`.
 - Clips werden neu gerendert: erst kostenlose Entwürfe, 2K-Endrender nur nach Preis + OK.
+- Ab 24.11.2026: Video-Entwürfe auf Dreamina (Seedance 2.5, 720P, Unlimited an), Bilder bis 2K auf Dreamina (GPT Image 2.5 Sunburst), 4K-Standbilder auf sjinn (Nano Banana 2.1). Nur generieren, wo Unlimited an und Preis 0.
 - Fassade/Schlange vor dem Lokal: kein echtes Material vorhanden; KI-Bild ohne Schriftzug, Eugen muss es abnehmen.
 
 ## 5. Zugänge
 gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur nötig für Live-Gang)
 
 ## 7. Befehle
-- Bauen: `python3 build.py` · Ansehen: `cd site && python3 -m http.server 4391`
+- Projektordner: `Dropbox/CLAUDE/Projekte/NANIWA` (seit 24.11.2026, vorher Sitzungsordner der App).
+- Bauen: `python3 build.py` · Ansehen: `cd site && python3 -m http.server 4391` (vor dem Link `<title>` per curl prüfen, Port kann fremd belegt sein)
+- Prüfen: `python3 tools/mobil_check.py` (Handy 390/360/430/quer), `python3 tools/schaerfe.py <video> <startbild>` (echte Detail-Auflösung)
 - Pages: `git subtree split --prefix site -b gh-pages && git push -f origin gh-pages`
 - Live: https://engelstraenen.github.io/naniwa-entwurf/ · Repo: https://github.com/Engelstraenen/naniwa-entwurf
 
 ## 8. Offene Fragen
-- Projekt liegt noch im Sitzungsordner der App, nicht in Dropbox/CLAUDE/Projekte/NANIWA.
 - Nudel-Karte: Extras + Getränke ergänzt (22.11., aus PDF S. 38, 59–61). „Dunkler Weizen-Tee“ steht in der PDF mit „2.3.00“, als 3,00 € übernommen.
 
 ## 9. Entschieden
