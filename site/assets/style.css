@@ -97,6 +97,24 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .dish .nm{font-size:clamp(17px,1.25vw,20px);font-weight:600;line-height:1.2;letter-spacing:.01em}
 .dish .pr{white-space:nowrap;font-weight:600;font-variant-numeric:tabular-nums;font-size:clamp(16px,1.2vw,19px)}
 .dish .ds{color:#5f5f5b;font-size:15px;line-height:1.4;margin-top:6px}
+.dish .nm .zs{font-size:14px;font-weight:600;color:#6b6b66;margin-left:3px;vertical-align:.5em;line-height:0}
+.dish .sy{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-top:10px}
+.dish .sy img,.leg img{width:20px;height:20px;border-radius:50%;flex:none}
+.sw{display:inline-flex;align-items:center;gap:2px;margin-left:4px}
+.sw i{display:block;width:33px;height:18px;background:#111;-webkit-mask:url(img/allergene/schwein.svg) center/contain no-repeat;mask:url(img/allergene/schwein.svg) center/contain no-repeat}
+.sw b{font-size:14px;font-weight:700;color:#c8102e;line-height:1}
+.veg{display:inline-block;font-size:14px;font-weight:600;line-height:1.25;background:var(--lime);color:#000;border-radius:5px;padding:2px 9px;margin-left:4px}
+.leg{margin-top:clamp(30px,4vw,56px);border-top:2px solid var(--lime);padding-top:6px}
+.leg summary{cursor:pointer;font-weight:600;font-size:16px;min-height:44px;display:flex;align-items:center;gap:10px;list-style:none}
+.leg summary::-webkit-details-marker{display:none}
+.leg summary::after{content:"+";font-size:22px;font-weight:400;color:#7d9a12}
+.leg[open] summary::after{content:"–"}
+.leg .lg{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr));gap:10px 26px;margin-top:10px;font-size:14px;color:#3a3a37}
+.leg .lg>span{display:flex;align-items:center;gap:9px}
+.leg .lg .veg,.leg .lg .sw{margin-left:0}
+.leg .zl{margin-top:18px}
+.leg .zl b{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#000;color:var(--lime);font-size:14px;flex:none}
+.leg p{font-size:14px;color:#6b6b66;margin-top:16px}
 .menu .note{color:#5f5f5b;font-size:14px;margin-top:clamp(30px,4vw,56px)}
 .zoom{position:fixed;inset:0;z-index:90;background:rgba(0,0,0,.92);display:none;place-items:center;padding:24px;cursor:zoom-out}
 .zoom.on{display:grid}

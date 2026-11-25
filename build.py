@@ -251,7 +251,7 @@ noodles += """<section class="quote">
   <blockquote class="rv">„Die Suppen, die vermutlich nirgendwo auf der Welt besser schmecken, werden in traditionellem Porzellan serviert. Die Suche nach der perfekten Nudel findet hier täglich statt.“<cite>Düsseldorf geht aus 2012/2013</cite></blockquote>
 </section>
 """
-noodles += menu("noodles", "Unsere Karte mit allen Ramen, Reisgerichten und Yakisoba.", "L = groß, S = klein. Allergene und Zusatzstoffe auf Nachfrage.")
+noodles += menu("noodles", "Unsere Karte mit allen Ramen, Reisgerichten und Yakisoba.", "L = groß, S = klein. Symbole wie auf der Naniwa-Speisekarte, Erklärung unter „Allergene &amp; Zusatzstoffe“.")
 noodles += reviews("noodles")
 noodles += visit("noodles", "NANIWA Noodles &amp; Soups", "Oststraße 55", "+49 211 16 17 99", "+49211161799", "Keine Reservierungen. Die Schlange lohnt sich! Take-away telefonisch oder vor Ort.", "https://www.google.com/maps/dir/?api=1&destination=Naniwa+Noodles+%26+Soups+Oststra%C3%9Fe+55+40211+D%C3%BCsseldorf")
 noodles += """<section class="faq" id="faq">

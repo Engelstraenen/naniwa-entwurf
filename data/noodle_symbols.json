@@ -1,0 +1,1295 @@
+{
+ "legende": {
+  "weizen": "Weizen",
+  "roggen": "Roggen",
+  "gerste": "Gerste",
+  "hafer": "Hafer",
+  "dinkel": "Dinkel",
+  "kamut": "Khorasan-Weizen",
+  "krebstiere": "Krebstiere",
+  "eier": "Eier",
+  "fisch": "Fisch",
+  "erdnuss": "Erdnüsse",
+  "soja": "Soja",
+  "milch": "Milch",
+  "mandeln": "Mandeln",
+  "haselnuss": "Haselnüsse",
+  "walnuss": "Walnüsse",
+  "cashew": "Cashewkerne",
+  "pekan": "Pekannüsse",
+  "paranuss": "Paranüsse",
+  "pistazie": "Pistazien",
+  "macadamia": "Macadamianüsse",
+  "sellerie": "Sellerie",
+  "senf": "Senf",
+  "sesam": "Sesam",
+  "sulfite": "Schwefeldioxid/Sulfite",
+  "lupinen": "Lupinen",
+  "weichtiere": "Weichtiere"
+ },
+ "gerichte": [
+  {
+   "seite": 1,
+   "nr": "V1",
+   "name": "MISO SOUP",
+   "allergene": [
+    "fisch",
+    "soja"
+   ],
+   "zusatz": [
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 2,
+   "nr": "V2",
+   "name": "WANTAN SOUP",
+   "allergene": [
+    "soja",
+    "sesam",
+    "gerste"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 3,
+   "nr": "V3",
+   "name": "KIMCHI",
+   "allergene": [
+    "fisch",
+    "gerste"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 4,
+   "nr": "V4",
+   "name": "NANIWA SALAD",
+   "allergene": [
+    "weizen",
+    "soja",
+    "fisch",
+    "eier",
+    "cashew"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 5,
+   "nr": "V5",
+   "name": "SALAD",
+   "allergene": [
+    "weizen",
+    "soja",
+    "fisch"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 6,
+   "nr": "V6",
+   "name": "WAKAME SALAD",
+   "allergene": [
+    "sesam"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 7,
+   "nr": "V7",
+   "name": "EDAMAME",
+   "allergene": [
+    "soja"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 8,
+   "nr": "V8",
+   "name": "GOMAAE",
+   "allergene": [
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 9,
+   "nr": "V9",
+   "name": "TORI TERIYAKI",
+   "allergene": [
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 10,
+   "nr": "V10",
+   "name": "EBI FRY",
+   "allergene": [
+    "weizen",
+    "krebstiere",
+    "eier"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 11,
+   "nr": "V11",
+   "name": "SHAKE FRY",
+   "allergene": [
+    "weizen",
+    "eier",
+    "fisch"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 12,
+   "nr": "V12",
+   "name": "FRIED GYOZA",
+   "allergene": [
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 13,
+   "nr": "V13",
+   "name": "DEEP FRIED GYOZA",
+   "allergene": [
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 14,
+   "nr": "V14",
+   "name": "MENMA",
+   "allergene": [
+    "weizen",
+    "soja",
+    "sesam",
+    "eier"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 15,
+   "nr": "V15",
+   "name": "TORI KARA",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 16,
+   "nr": "V16",
+   "name": "BUTA SARA",
+   "allergene": [
+    "fisch",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 17,
+   "nr": "V17",
+   "name": "BUTA KIMCHI",
+   "allergene": [
+    "fisch",
+    "soja"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 18,
+   "nr": "V18",
+   "name": "YASAI ITAME",
+   "allergene": [
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 19,
+   "nr": "V18",
+   "name": "MABO TOFU",
+   "allergene": [
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 20,
+   "nr": "N1",
+   "name": "SHOYU",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 20,
+   "nr": "N1-2",
+   "name": "CHASU SHOYU",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 21,
+   "nr": "N2",
+   "name": "SHIO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 21,
+   "nr": "N2-2",
+   "name": "CHASHU SHIO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 22,
+   "nr": "N3",
+   "name": "MISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 22,
+   "nr": "N3-2",
+   "name": "CHASHU MISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 23,
+   "nr": "N4",
+   "name": "TOKUSEI SHOYU",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen",
+    "pekan"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 23,
+   "nr": "N4-2",
+   "name": "CHASHU TOKUSEI SHOYU",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen",
+    "pekan"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 24,
+   "nr": "N5",
+   "name": "CURRY",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 24,
+   "nr": "N5-2",
+   "name": "CHASHU CURRY",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 25,
+   "nr": "N6",
+   "name": "WANTAN",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 25,
+   "nr": "N6-2",
+   "name": "CHASHU WANTAN",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 26,
+   "nr": "N7",
+   "name": "CHANPON",
+   "allergene": [
+    "eier",
+    "fisch",
+    "krebstiere",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 26,
+   "nr": "N7-2",
+   "name": "CHASHU CHANPON",
+   "allergene": [
+    "eier",
+    "fisch",
+    "krebstiere",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 27,
+   "nr": "N8",
+   "name": "STAMINA",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 27,
+   "nr": "N8-2",
+   "name": "CHASHU STAMINA",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 28,
+   "nr": "N9",
+   "name": "TOKUSEI MISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 28,
+   "nr": "N9-2",
+   "name": "CHASHU TOKUSEI MISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 29,
+   "nr": "N10",
+   "name": "NINNIKU MISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 29,
+   "nr": "N10-2",
+   "name": "CHASHU NINNIKU MISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 2,
+   "veg": false
+  },
+  {
+   "seite": 30,
+   "nr": "N11",
+   "name": "TANMEN",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 31,
+   "nr": "N13",
+   "name": "YASAI",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": true
+  },
+  {
+   "seite": 32,
+   "nr": "N14",
+   "name": "TOKUSEI TORIMISO",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 33,
+   "nr": "N15",
+   "name": "TANTAN",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen",
+    "erdnuss"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 34,
+   "nr": "N16",
+   "name": "YASAI & MINCHI",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 35,
+   "nr": "N17",
+   "name": "THAI-CURRY",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 36,
+   "nr": "N18",
+   "name": "TOKUSEI STAMINA",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 37,
+   "nr": "N20",
+   "name": "MABOMEN",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 1,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E1",
+   "name": "",
+   "allergene": [
+    "eier",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E5",
+   "name": "",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E10",
+   "name": "",
+   "allergene": [
+    "soja"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E2",
+   "name": "",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E9",
+   "name": "",
+   "allergene": [
+    "krebstiere"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E6",
+   "name": "",
+   "allergene": [
+    "krebstiere",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E3",
+   "name": "",
+   "allergene": [
+    "eier",
+    "soja"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E7",
+   "name": "",
+   "allergene": [
+    "soja"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E4",
+   "name": "",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 38,
+   "nr": "E8",
+   "name": "",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 39,
+   "nr": "R1",
+   "name": "ONIGIRI (SHAKE, UME, OKAKA)",
+   "allergene": [
+    "fisch",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 40,
+   "nr": "R2",
+   "name": "TENSHIN-HAN",
+   "allergene": [
+    "weizen",
+    "krebstiere",
+    "eier",
+    "soja",
+    "sesam"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 41,
+   "nr": "R3",
+   "name": "CHAHAN",
+   "allergene": [
+    "weizen",
+    "eier",
+    "soja",
+    "sesam"
+   ],
+   "zusatz": [
+    6,
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 42,
+   "nr": "R4",
+   "name": "TORI-CHAHAN",
+   "allergene": [
+    "eier",
+    "soja",
+    "sesam"
+   ],
+   "zusatz": [
+    6,
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 43,
+   "nr": "R5",
+   "name": "EBI-CHAHAN",
+   "allergene": [
+    "eier",
+    "krebstiere",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6,
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 44,
+   "nr": "R6",
+   "name": "KIMCHI-CHAHAN",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6,
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 45,
+   "nr": "R7",
+   "name": "YASAI-CHAHAN",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6,
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 46,
+   "nr": "R8",
+   "name": "CHUKA-DON",
+   "allergene": [
+    "fisch",
+    "krebstiere",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 47,
+   "nr": "R9",
+   "name": "MABO-DON",
+   "allergene": [
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 48,
+   "nr": "R10",
+   "name": "TORITERI-DON",
+   "allergene": [
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    7
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 49,
+   "nr": "Y1",
+   "name": "YAKISOBA",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 50,
+   "nr": "Y2",
+   "name": "YASAI YAKISOBA",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 51,
+   "nr": "Y3",
+   "name": "IKA YAKISOBA",
+   "allergene": [
+    "eier",
+    "fisch",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 52,
+   "nr": "Y4",
+   "name": "TORI YAKISOBA",
+   "allergene": [
+    "eier",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 53,
+   "nr": "Y5",
+   "name": "MIX YAKISOBA",
+   "allergene": [
+    "eier",
+    "fisch",
+    "krebstiere",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 54,
+   "nr": "Y6",
+   "name": "GOMOKU YAKISOBA",
+   "allergene": [
+    "eier",
+    "fisch",
+    "krebstiere",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [
+    6
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 55,
+   "nr": "K1",
+   "name": "KIDS MENU",
+   "allergene": [
+    "eier",
+    "krebstiere",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 56,
+   "nr": "K2",
+   "name": "NOODLE SOUP KIDS",
+   "allergene": [
+    "eier",
+    "sesam",
+    "soja",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 57,
+   "nr": "D1",
+   "name": "GREEN TEA ICE",
+   "allergene": [
+    "eier",
+    "milch",
+    "weizen",
+    "soja"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 58,
+   "nr": "D2",
+   "name": "MANGO ICE",
+   "allergene": [
+    "eier",
+    "milch",
+    "weizen"
+   ],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "BOLTON ALT",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "KIRIN PILS",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "ASAHI PILS",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "ERDINGER WEIZEN (PALE)",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "ERDINGER WEIZEN (DARK)",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "SAKE (REISWEIN)",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 59,
+   "nr": "",
+   "name": "ALKOHOLFREIES BIER",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "COCA COLA",
+   "allergene": [],
+   "zusatz": [
+    1
+   ],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "YUZUKA",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "APPLE SPRITZER",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "GINGER ALE",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "ORANGE JUICE",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "APPLE JUICE",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "GEROLSTEINER",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "GEROLSTEINER",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "GEROLSTEINER",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 60,
+   "nr": "",
+   "name": "GEROLSTEINER",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 61,
+   "nr": "",
+   "name": "GREEN TEA",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 61,
+   "nr": "",
+   "name": "DUNKLER WEIZEN-TEA",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 61,
+   "nr": "",
+   "name": "JASMIN-TEA",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 61,
+   "nr": "",
+   "name": "GREEN TEA WITH HONEY",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 61,
+   "nr": "",
+   "name": "POMEGRANATE TEA",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  },
+  {
+   "seite": 61,
+   "nr": "",
+   "name": "BLUEBERRY WHITE TEA",
+   "allergene": [],
+   "zusatz": [],
+   "schwein": 0,
+   "veg": false
+  }
+ ]
+}

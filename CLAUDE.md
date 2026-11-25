@@ -46,3 +46,6 @@ gh (Engelstraenen) ✅ · sjinn.ai in Chrome ✅ · WordPress naniwa.de ❌ (nur
 - 22.11.2026: Tantan nur mit EINEM Pak Choi (V7b). Noodles-Reihenfolge: Original-Anrichtvideo, Vorspeisen, Tantan, Tokusei Miso, Schlange. Sushi: komplettes Original-Video, Nigiri, Sushi-Teller V5b.
 - 22.11.2026: V8b Tokusei Miso (MiniMax-Entwurf 15 s) abgenommen. Endrender nur MiniMax H3 2K, ohne Referenzvideo, mit 4K-Startbild startbilder/f8_tokusei_miso.jpg, Preis vorher nennen.
 - 24.11.2026: Tantan bleibt erstmal 720P kostenlos (Dreamina V7c), danach nachschärfen; 1080P auf Dreamina (624 Credits) schaut Eugen später an.
+
+- 24.11.2026: Seite von Eugen abgenommen („confirmed“), nichts mehr ändern. Nicht Teil des Demo-Umbaus auf neue Leitideen.
+- 25.11.2026: Nudel-Karte bekommt die Symbole der Original-PDF (Allergene, Zusatzstoffe, Schwein ×2, vegetarisch) per tools/nudel_symbole.py. Kein Hähnchen-Symbol (gibt es auf der Karte nicht).
