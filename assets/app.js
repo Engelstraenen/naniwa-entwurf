@@ -135,13 +135,39 @@
   if (box && window.NANIWA_MENU) {
     var data = window.NANIWA_MENU[box.dataset.menu], cats = box.querySelector('.cats'), list = box.querySelector('.dishes');
     function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+    var leg = window.NANIWA_MENU.leg || { al: {}, zs: {} }, ic = '../assets/img/allergene/';
+    // Symbole wie auf der echten Karte: Zusatzstoffe als Hochzahl, Allergene als kleine Kreise, Schwein, vegetarisch
+    function zs(z) {
+      return z && z.length ? '<sup class="zs" title="' + esc(z.map(function (n) { return n + ' ' + (leg.zs[n] || ''); }).join(', ')) + '">' + z.join(',') + '</sup>' : '';
+    }
+    function sy(g) {
+      if (!(g.al && g.al.length) && !g.sw && !g.veg) return '';
+      return '<div class="sy">' + (g.al || []).map(function (k) {
+        return '<img src="' + ic + k + '.png" width="20" height="20" alt="' + esc(leg.al[k] || k) + '" title="' + esc(leg.al[k] || k) + '">';
+      }).join('') +
+        (g.sw ? '<span class="sw" role="img" aria-label="mit Schweinefleisch' + (g.sw > 1 ? ', doppelte Menge' : '') + '" title="Schwein' + (g.sw > 1 ? ' ×2' : '') + '"><i></i>' + (g.sw > 1 ? '<b>×2</b>' : '') + '</span>' : '') +
+        (g.veg ? '<span class="veg">auch komplett vegetarisch</span>' : '') + '</div>';
+    }
+    function legende() {
+      var al = Object.keys(leg.al);
+      if (!al.length || box.dataset.menu !== 'noodles') return;
+      var d = document.createElement('details');
+      d.className = 'leg';
+      d.innerHTML = '<summary>Allergene &amp; Zusatzstoffe</summary><div class="lg">' +
+        al.map(function (k) { return '<span><img src="' + ic + k + '.png" width="20" height="20" alt="">' + esc(leg.al[k]) + '</span>'; }).join('') +
+        '<span><span class="sw"><i></i></span>Schwein (×2 = doppelt Chashu)</span>' +
+        '<span><span class="veg">veg.</span>auch komplett vegetarisch erhältlich</span></div><div class="lg zl">' +
+        Object.keys(leg.zs).map(function (n) { return '<span><b>' + n + '</b>' + esc(leg.zs[n]) + '</span>'; }).join('') +
+        '</div><p>Angaben laut Naniwa-Speisekarte. Bei Allergien bitte im Restaurant nachfragen.</p>';
+      list.parentNode.insertBefore(d, list.nextSibling);
+    }
     function show(i) {
       [].forEach.call(cats.children, function (b, j) { b.setAttribute('aria-selected', j === i ? 'true' : 'false'); });
       list.innerHTML = data[i].g.map(function (g) {
         return '<article class="dish">' + (g.nr || g.jp ? '<div class="tp"><small>' + esc(g.nr) + '</small>' + (g.jp ? '<span lang="ja">' + esc(g.jp) + '</span>' : '') + '</div>' : '') +
           (g.b ? '<img class="ph" loading="lazy" decoding="async" width="1200" height="800" alt="' + esc(g.n) + '" src="' + esc(g.b) + '">' : '') +
-          '<div class="rw"><h3 class="nm">' + esc(g.n) + '</h3><span class="pr">' + esc(g.p) + '</span></div>' +
-          (g.t ? '<p class="ds">' + esc(g.t) + '</p>' : '') + '</article>';
+          '<div class="rw"><h3 class="nm">' + esc(g.n) + zs(g.zs) + '</h3><span class="pr">' + esc(g.p) + '</span></div>' +
+          (g.t ? '<p class="ds">' + esc(g.t) + '</p>' : '') + sy(g) + '</article>';
       }).join('');
     }
     data.forEach(function (c, i) {
@@ -151,6 +177,7 @@
       cats.appendChild(b);
     });
     show(box.dataset.menu === 'noodles' ? 1 : 0);
+    legende();
     var z = document.createElement('div');
     z.className = 'zoom'; z.innerHTML = '<img alt=""><p></p>';
     document.body.appendChild(z);
